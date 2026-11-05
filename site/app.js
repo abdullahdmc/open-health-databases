@@ -33,7 +33,7 @@
   }
 
   function apply() {
-    const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+    const terms = state.q.toLowerCase().split(/[\s-]+/).filter(Boolean);
     let shown = 0;
     for (const c of cards) {
       const ok =

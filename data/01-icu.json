@@ -79,7 +79,8 @@
     },
     {
       "id": "eicu-crd",
-      "name": "eICU Collaborative Research Database",
+      "name": "eICU-CRD",
+      "full_name": "eICU Collaborative Research Database",
       "description": "Multi-centre ICU data for >200,000 admissions across 208 US hospitals (2014–2015) collected through the Philips eICU telehealth programme. Complements single-centre MIMIC for external validation.",
       "provider": "MIT LCP / Philips Healthcare",
       "region": "USA (multi-centre)",

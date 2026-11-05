@@ -38,7 +38,9 @@ const counts = Object.fromEntries(Object.keys(ACCESS).map((a) => [a, all.filter(
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch]);
 
 function card(it) {
-  const search = [it.name, it.full_name, it.description, it.provider, it.region, ...(it.tags || [])].join(" ").toLowerCase();
+  // The id doubles as a short alias (e.g. "eicu-crd"); hyphens become spaces
+  // so the client, which splits queries on hyphens too, can match it.
+  const search = [it.id.replaceAll("-", " "), it.name, it.full_name, it.description, it.provider, it.region, ...(it.tags || [])].join(" ").toLowerCase();
   const paper = it.paper
     ? `<a class="btn btn-ghost" href="${esc(it.paper.url)}" target="_blank" rel="noopener" title="${esc(it.paper.label)}">Original article</a>`
     : `<span class="btn btn-none" title="No dedicated descriptor article">No article</span>`;
