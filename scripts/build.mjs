@@ -84,12 +84,20 @@ const legend = Object.entries(ACCESS)
   .map(([k, v]) => `<li><span class="badge badge-${k}">${v.label}</span> ${esc(v.long.replace(/^Completely free — |^Free — /, ""))}</li>`)
   .join("");
 
+const contributors = JSON.parse(readFileSync(join(root, "contributors.json"), "utf8"));
+const citeAuthors = contributors.map((p) => p.citation_name).join(", ");
+const contributorList = contributors
+  .map((p) => (p.github ? `<a href="https://github.com/${esc(p.github)}">${esc(p.citation_name)}</a>` : esc(p.citation_name)))
+  .join(", ");
+
 const updated = new Date().toISOString().slice(0, 10);
 const html = readFileSync(join(root, "site", "index.template.html"), "utf8")
   .replaceAll("{{TOTAL}}", String(all.length))
   .replaceAll("{{NCAT}}", String(categories.length))
   .replaceAll("{{OPEN}}", String(counts.open))
   .replaceAll("{{UPDATED}}", updated)
+  .replaceAll("{{CITE_AUTHORS}}", esc(citeAuthors))
+  .replace("{{CONTRIBUTORS}}", contributorList)
   .replace("{{CAT_CHIPS}}", catChips)
   .replace("{{ACCESS_CHIPS}}", accessChips)
   .replace("{{LEGEND}}", legend)

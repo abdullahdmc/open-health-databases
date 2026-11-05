@@ -64,11 +64,14 @@ a { color: var(--registration); }
 .stats strong { font: 700 26px/1 var(--serif); margin-right: 6px; color: #fff; }
 
 /* Acknowledgement callout */
-.ack { margin-top: 28px; max-width: 760px; background: rgba(255, 255, 255, .08); border: 1px solid rgba(127, 209, 185, .45); border-left: 4px solid var(--accent); border-radius: 10px; padding: 14px 18px; }
-.ack p { margin: 0 0 8px; font-size: 15px; }
-.ack strong { color: #fff; }
+.hero-grid { display: grid; gap: 28px; align-items: center; }
+@media (min-width: 960px) { .hero-grid { grid-template-columns: 1fr 300px; gap: 48px; } }
+.ack { background: rgba(255, 255, 255, .08); border: 1px solid rgba(127, 209, 185, .45); border-top: 4px solid var(--accent); border-radius: 12px; padding: 16px 18px; }
+.ack p { margin: 0 0 8px; font-size: 14px; line-height: 1.5; }
+.ack-title { font: 700 18px/1.25 var(--serif) !important; color: #fff; }
 .ack a { color: var(--accent); }
-.ack-cite { font-size: 13px !important; opacity: .85; font-style: italic; }
+.ack-cite { font-size: 12px !important; opacity: .8; font-style: italic; margin-bottom: 12px !important; }
+.contributors { margin-top: 8px !important; }
 .ack-btn { background: var(--accent); color: #0b2e30; }
 .ack-btn:hover { filter: brightness(1.08); }
 

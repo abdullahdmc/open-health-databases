@@ -19,18 +19,21 @@
   <a class="skip" href="#results">Skip to databases</a>
 
   <header class="hero">
-    <div class="wrap">
-      <p class="eyebrow">A researcher's catalogue</p>
-      <h1>Open Health Databases</h1>
-      <p class="lede">Freely available clinical and health datasets, from ICU records to imaging, genomics, signals and population surveys. Each entry has a short description, the original article and how to get access.</p>
-      <ul class="stats">
-        <li><strong>{{TOTAL}}</strong> databases</li>
-        <li><strong>{{NCAT}}</strong> categories</li>
-        <li><strong>{{OPEN}}</strong> open, with no sign-up</li>
-      </ul>
+    <div class="wrap hero-grid">
+      <div class="hero-main">
+        <p class="eyebrow">A researcher's catalogue</p>
+        <h1>Open Health Databases</h1>
+        <p class="lede">Freely available clinical and health datasets, from ICU records to imaging, genomics, signals and population surveys. Each entry has a short description, the original article and how to get access.</p>
+        <ul class="stats">
+          <li><strong>{{TOTAL}}</strong> databases</li>
+          <li><strong>{{NCAT}}</strong> categories</li>
+          <li><strong>{{OPEN}}</strong> open, with no sign-up</li>
+        </ul>
+      </div>
       <aside class="ack" aria-labelledby="ack-title">
-        <p><strong id="ack-title">Found a dataset here?</strong> Please acknowledge this site or its <a href="https://github.com/abdullahdmc/open-health-databases">GitHub repository</a> in your paper, thesis or project.</p>
-        <p class="ack-cite"><span id="cite-text">Open Health Databases: a catalogue of freely available health datasets. https://open-health-databases.vercel.app (source: github.com/abdullahdmc/open-health-databases). Accessed <span class="cite-date"></span>.</span></p>
+        <p class="ack-title" id="ack-title">Found a dataset here?</p>
+        <p>Please acknowledge this site or its <a href="https://github.com/abdullahdmc/open-health-databases">GitHub repo</a> in your work.</p>
+        <p class="ack-cite" id="cite-text">{{CITE_AUTHORS}}. Open Health Databases: a catalogue of freely available health datasets. https://open-health-databases.vercel.app. Accessed <span class="cite-date"></span>.</p>
         <button type="button" class="btn ack-btn" id="copy-cite">Copy acknowledgement</button>
       </aside>
     </div>
@@ -81,6 +84,7 @@
       <div>
         <h2>Acknowledge</h2>
         <p>If this catalogue helped you find a database, please credit <a href="https://open-health-databases.vercel.app">open-health-databases.vercel.app</a> or the <a href="https://github.com/abdullahdmc/open-health-databases">GitHub repository</a>. You can copy the suggested wording from the top of the page.</p>
+        <p class="contributors">Contributors: {{CONTRIBUTORS}}</p>
       </div>
       <div>
         <h2>Contribute</h2>

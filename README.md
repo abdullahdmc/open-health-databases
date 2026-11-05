@@ -60,6 +60,16 @@ Edit the right file in `data/`. Each item looks like this:
 
 Use `"paper": null` when there is no descriptor article. Run `npm run build` (it validates the fields), then open a pull request.
 
+## Acknowledging this catalogue
+
+If you found a database through this site, please acknowledge it. GitHub's **"Cite this repository"** button (generated from `CITATION.cff`) gives the citation, or use:
+
+> Khan MAS, et al. Open Health Databases: a catalogue of freely available health datasets. https://open-health-databases.vercel.app
+
+## Contributors
+
+Everyone whose commit reaches `main` is credited automatically. After each push, the `contributors` GitHub Action adds new GitHub contributors to `contributors.json` (using the name on their GitHub profile, in "Surname Initials" form). It also regenerates `CITATION.cff`, and the site's citation and footer pick up the change on the next deploy. If your name isn't formatted the way you publish, edit your own entry in `contributors.json` in a pull request. The Action never overwrites existing entries.
+
 ## Verification notes
 
 Every article DOI in the catalogue resolves through Crossref to the matching title. Access URLs were checked automatically. A few institutional sites (for example SAMHSA, HRS, ICPSR, LOINC and DrugBank) block automated requests, and a few others have certificate or timeout problems seen from scripts. These links point to the official provider pages and were kept. Access terms change, so always read the provider's current licence before you use the data.

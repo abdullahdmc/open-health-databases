@@ -108,7 +108,7 @@
   document.querySelector(".cite-date").textContent = new Date().toISOString().slice(0, 10);
   const copyBtn = document.getElementById("copy-cite");
   copyBtn.addEventListener("click", async () => {
-    const text = document.getElementById("cite-text").textContent;
+    const text = document.getElementById("cite-text").textContent.replace(/\s+/g, " ").trim();
     try {
       await navigator.clipboard.writeText(text);
       copyBtn.textContent = "Copied ✓";
