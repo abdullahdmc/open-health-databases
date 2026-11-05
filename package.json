@@ -1,0 +1,13 @@
+{
+  "name": "open-health-databases",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Curated catalogue of freely available health and clinical databases",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}

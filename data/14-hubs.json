@@ -1,0 +1,127 @@
+{
+  "category": "hubs",
+  "title": "Data Repositories & Portals",
+  "blurb": "General platforms that host or index many health datasets — good places to keep searching.",
+  "items": [
+    {
+      "id": "physionet",
+      "name": "PhysioNet",
+      "description": "The home of MIMIC, eICU and hundreds of open and credentialed physiological, clinical and imaging datasets, plus annual Computing in Cardiology challenges.",
+      "provider": "MIT Laboratory for Computational Physiology",
+      "region": "International",
+      "access": "open",
+      "access_note": "Mixed: each dataset is Open, Restricted (registration + DUA) or Credentialed.",
+      "url": "https://physionet.org/",
+      "paper": {"label": "Goldberger AL et al. Circulation 2000;101:e215", "url": "https://doi.org/10.1161/01.CIR.101.23.e215"},
+      "tags": ["hub", "physiological signals", "EHR"]
+    },
+    {
+      "id": "uci-ml",
+      "name": "UCI Machine Learning Repository",
+      "description": "Long-running repository of 600+ curated datasets, including dozens of classic clinical ones (breast cancer Wisconsin, heart disease, diabetes, CKD, hepatitis).",
+      "provider": "University of California, Irvine",
+      "region": "International",
+      "access": "open",
+      "access_note": "Direct download (mostly CC BY 4.0).",
+      "url": "https://archive.ics.uci.edu/",
+      "paper": null,
+      "tags": ["hub", "teaching", "tabular"]
+    },
+    {
+      "id": "grand-challenge",
+      "name": "Grand Challenge",
+      "description": "Platform hosting hundreds of biomedical image-analysis challenges with downloadable datasets and leaderboard evaluation.",
+      "provider": "Radboud UMC (DIAG)",
+      "region": "International",
+      "access": "registration",
+      "access_note": "Free account; each challenge sets its own data terms.",
+      "url": "https://grand-challenge.org/challenges/",
+      "paper": null,
+      "tags": ["hub", "imaging", "challenges"]
+    },
+    {
+      "id": "synapse",
+      "name": "Synapse",
+      "description": "Collaborative research platform hosting data for DREAM challenges, AMP-AD, BraTS and many consortia, with fine-grained access controls.",
+      "provider": "Sage Bionetworks",
+      "region": "International",
+      "access": "registration",
+      "access_note": "Free account; some datasets need certified-user quiz or data-use approval.",
+      "url": "https://www.synapse.org/",
+      "paper": null,
+      "tags": ["hub", "challenges", "omics"]
+    },
+    {
+      "id": "kaggle",
+      "name": "Kaggle Datasets",
+      "description": "Community data platform with thousands of medical datasets and competition data (RSNA, SIIM, APTOS, PANDA) plus free GPU notebooks.",
+      "provider": "Google",
+      "region": "International",
+      "access": "registration",
+      "access_note": "Free account; licences vary — check provenance carefully.",
+      "url": "https://www.kaggle.com/datasets?tags=4202-Health",
+      "paper": null,
+      "tags": ["hub", "competitions"]
+    },
+    {
+      "id": "icpsr",
+      "name": "ICPSR",
+      "description": "The world's largest archive of social and behavioural science data, including health and ageing collections (NACDA) and many NIH-funded studies.",
+      "provider": "University of Michigan",
+      "region": "International",
+      "access": "registration",
+      "access_note": "Free account for public-use files; restricted files by application.",
+      "url": "https://www.icpsr.umich.edu/",
+      "paper": null,
+      "tags": ["hub", "surveys", "ageing"]
+    },
+    {
+      "id": "ukds",
+      "name": "UK Data Service",
+      "description": "UK's largest collection of social, economic and population data — including ELSA, Understanding Society, Health Survey for England and birth cohorts.",
+      "provider": "University of Essex / UKRI",
+      "region": "United Kingdom",
+      "access": "registration",
+      "access_note": "Free registration (international users welcome for most safeguarded data).",
+      "url": "https://ukdataservice.ac.uk/",
+      "paper": null,
+      "tags": ["hub", "surveys", "cohorts"]
+    },
+    {
+      "id": "hdr-gateway",
+      "name": "Health Data Research Gateway",
+      "description": "Searchable catalogue of UK health datasets (NHS, cohorts, biobanks, trials) with standardised metadata and a common data-access request workflow.",
+      "provider": "Health Data Research UK",
+      "region": "United Kingdom",
+      "access": "application",
+      "access_note": "Catalogue open; access to each dataset via the custodian's application process (some may charge).",
+      "url": "https://healthdatagateway.org/",
+      "paper": null,
+      "tags": ["hub", "catalogue", "UK"]
+    },
+    {
+      "id": "aws-open-data",
+      "name": "Registry of Open Data on AWS (life sciences)",
+      "description": "Cloud-hosted public datasets you can analyse in place — e.g. gnomAD, 1000 Genomes, TCGA open tier, CAMELYON, EMBED, NIH CXR.",
+      "provider": "Amazon Web Services",
+      "region": "International",
+      "access": "open",
+      "access_note": "Mostly open; some entries require approval from the data owner.",
+      "url": "https://registry.opendata.aws/?search=tags:life%20sciences",
+      "paper": null,
+      "tags": ["hub", "cloud"]
+    },
+    {
+      "id": "zenodo",
+      "name": "Zenodo",
+      "description": "CERN-run general-purpose open repository where many medical datasets (TotalSegmentator, CODE-15%, COUGHVID…) are deposited with DOIs.",
+      "provider": "CERN / OpenAIRE",
+      "region": "International",
+      "access": "open",
+      "access_note": "Open; per-record licences and occasional restricted access.",
+      "url": "https://zenodo.org/",
+      "paper": null,
+      "tags": ["hub", "DOI"]
+    }
+  ]
+}

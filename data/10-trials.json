@@ -1,0 +1,106 @@
+{
+  "category": "trials",
+  "title": "Clinical Trials & Individual Participant Data",
+  "blurb": "Trial registries and platforms that share individual participant data from completed trials.",
+  "items": [
+    {
+      "id": "clinicaltrials-gov",
+      "name": "ClinicalTrials.gov",
+      "description": "Registry and results database of >500,000 clinical studies in 220+ countries, with a modern REST API and bulk downloads.",
+      "provider": "US National Library of Medicine",
+      "region": "Global",
+      "access": "open",
+      "access_note": "Open web, API and bulk download.",
+      "url": "https://clinicaltrials.gov/",
+      "paper": {"label": "Zarin DA et al. N Engl J Med 2011;364:852", "url": "https://doi.org/10.1056/NEJMsa1012065"},
+      "tags": ["registry", "API"]
+    },
+    {
+      "id": "aact",
+      "name": "AACT",
+      "full_name": "Aggregate Analysis of ClinicalTrials.gov",
+      "description": "A relational (PostgreSQL) copy of the entire ClinicalTrials.gov database refreshed daily, ideal for research on trial design and reporting.",
+      "provider": "Clinical Trials Transformation Initiative (Duke)",
+      "region": "Global",
+      "access": "open",
+      "access_note": "Flat files and database dumps open; free account needed for the live cloud database.",
+      "url": "https://aact.ctti-clinicaltrials.org/",
+      "paper": {"label": "Tasneem A et al. PLoS One 2012;7:e33677", "url": "https://doi.org/10.1371/journal.pone.0033677"},
+      "tags": ["registry", "SQL", "meta-research"]
+    },
+    {
+      "id": "who-ictrp",
+      "name": "WHO ICTRP",
+      "full_name": "International Clinical Trials Registry Platform",
+      "description": "Single search portal over primary trial registries worldwide (incl. CTRI, ChiCTR, EU CTR, ISRCTN, ANZCTR, PACTR).",
+      "provider": "World Health Organization",
+      "region": "Global",
+      "access": "open",
+      "access_note": "Open search; full data export on request.",
+      "url": "https://trialsearch.who.int/",
+      "paper": null,
+      "tags": ["registry", "global"]
+    },
+    {
+      "id": "vivli",
+      "name": "Vivli",
+      "description": "Independent non-profit platform to search and request de-identified individual participant data from 7,000+ trials contributed by pharma, academia and funders (now also hosting GSK's former CSDR requests).",
+      "provider": "Vivli Inc.",
+      "region": "Global",
+      "access": "application",
+      "access_note": "Research proposal reviewed by the data contributor; analysis in a secure research environment. Generally free for academic requestors.",
+      "url": "https://vivli.org/",
+      "paper": {"label": "Bierer BE et al. N Engl J Med 2016;374:2411", "url": "https://doi.org/10.1056/NEJMp1605348"},
+      "tags": ["IPD", "pharma trials"]
+    },
+    {
+      "id": "yoda",
+      "name": "YODA Project",
+      "full_name": "Yale Open Data Access Project",
+      "description": "Independent review and sharing of individual participant data from trials contributed by Johnson & Johnson, Medtronic, Procter & Gamble and others.",
+      "provider": "Yale University",
+      "region": "Global",
+      "access": "application",
+      "access_note": "Free; research proposal reviewed by YODA; analysis in a secure platform.",
+      "url": "https://yoda.yale.edu/",
+      "paper": null,
+      "tags": ["IPD", "pharma trials"]
+    },
+    {
+      "id": "project-data-sphere",
+      "name": "Project Data Sphere",
+      "description": "Open platform sharing patient-level data from oncology trial comparator (and some experimental) arms, with built-in analytics tools.",
+      "provider": "Project Data Sphere / CEO Roundtable on Cancer",
+      "region": "Global",
+      "access": "registration",
+      "access_note": "Free registration and acceptance of the data-sharing agreement.",
+      "url": "https://www.projectdatasphere.org/",
+      "paper": null,
+      "tags": ["IPD", "oncology"]
+    },
+    {
+      "id": "nctn-archive",
+      "name": "NCTN/NCORP Data Archive",
+      "description": "Individual-level data from completed NCI-funded cancer clinical trials run by US cooperative groups.",
+      "provider": "US National Cancer Institute",
+      "region": "USA",
+      "access": "application",
+      "access_note": "Free; data request with signed data use agreement.",
+      "url": "https://nctn-data-archive.nci.nih.gov/",
+      "paper": null,
+      "tags": ["IPD", "oncology"]
+    },
+    {
+      "id": "nida-datashare",
+      "name": "NIDA Data Share",
+      "description": "De-identified data from completed trials of the NIDA Clinical Trials Network on substance-use disorder treatments.",
+      "provider": "US National Institute on Drug Abuse",
+      "region": "USA",
+      "access": "open",
+      "access_note": "Free download after accepting the data-sharing agreement online.",
+      "url": "https://datashare.nida.nih.gov/",
+      "paper": null,
+      "tags": ["IPD", "addiction"]
+    }
+  ]
+}
