@@ -95,6 +95,30 @@
     if (e.key === "Escape" && document.activeElement === q) { q.value = ""; state.q = ""; apply(); }
   });
 
+  // Back-to-top: shown once the hero has scrolled out of view.
+  const toTop = document.getElementById("to-top");
+  new IntersectionObserver(([e]) => { toTop.hidden = e.isIntersecting; }).observe(hero);
+  toTop.addEventListener("click", (e) => {
+    e.preventDefault();
+    scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    history.replaceState(null, "", location.pathname + location.search);
+  });
+
+  // Acknowledgement text: fill today's date and copy to clipboard.
+  document.querySelector(".cite-date").textContent = new Date().toISOString().slice(0, 10);
+  const copyBtn = document.getElementById("copy-cite");
+  copyBtn.addEventListener("click", async () => {
+    const text = document.getElementById("cite-text").textContent;
+    try {
+      await navigator.clipboard.writeText(text);
+      copyBtn.textContent = "Copied ✓";
+    } catch {
+      getSelection().selectAllChildren(document.getElementById("cite-text"));
+      copyBtn.textContent = "Press Ctrl+C to copy";
+    }
+    setTimeout(() => { copyBtn.textContent = "Copy acknowledgement"; }, 2500);
+  });
+
   readUrl();
   apply();
 })();

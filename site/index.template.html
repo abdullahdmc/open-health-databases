@@ -15,19 +15,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="top">
   <a class="skip" href="#results">Skip to databases</a>
 
   <header class="hero">
     <div class="wrap">
       <p class="eyebrow">A researcher's catalogue</p>
       <h1>Open Health Databases</h1>
-      <p class="lede">Freely available clinical and health datasets, from ICU records like MIMIC-IV to imaging, genomics, signals and population surveys. Each entry has a short description, the original article and how to get access.</p>
+      <p class="lede">Freely available clinical and health datasets, from ICU records to imaging, genomics, signals and population surveys. Each entry has a short description, the original article and how to get access.</p>
       <ul class="stats">
         <li><strong>{{TOTAL}}</strong> databases</li>
         <li><strong>{{NCAT}}</strong> categories</li>
         <li><strong>{{OPEN}}</strong> open, with no sign-up</li>
       </ul>
+      <aside class="ack" aria-labelledby="ack-title">
+        <p><strong id="ack-title">Found a dataset here?</strong> Please acknowledge this site or its <a href="https://github.com/abdullahdmc/open-health-databases">GitHub repository</a> in your paper, thesis or project.</p>
+        <p class="ack-cite"><span id="cite-text">Open Health Databases: a catalogue of freely available health datasets. https://open-health-databases.vercel.app (source: github.com/abdullahdmc/open-health-databases). Accessed <span class="cite-date"></span>.</span></p>
+        <button type="button" class="btn ack-btn" id="copy-cite">Copy acknowledgement</button>
+      </aside>
     </div>
   </header>
 
@@ -74,6 +79,10 @@
         <p>Download the full catalogue as <a href="databases.csv" download>CSV</a> or <a href="databases.json" download>JSON</a>.</p>
       </div>
       <div>
+        <h2>Acknowledge</h2>
+        <p>If this catalogue helped you find a database, please credit <a href="https://open-health-databases.vercel.app">open-health-databases.vercel.app</a> or the <a href="https://github.com/abdullahdmc/open-health-databases">GitHub repository</a>. You can copy the suggested wording from the top of the page.</p>
+      </div>
+      <div>
         <h2>Contribute</h2>
         <p>Spotted a broken link or a missing database? Open an issue or pull request on <a href="https://github.com/abdullahdmc/open-health-databases">GitHub</a>.</p>
       </div>
@@ -83,6 +92,11 @@
       </div>
     </div>
   </footer>
+
+  <a href="#top" class="to-top" id="to-top" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    <span>Top</span>
+  </a>
 
   <script src="app.js" defer></script>
 </body>
