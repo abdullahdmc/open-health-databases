@@ -88,18 +88,6 @@
       "tags": ["hub", "surveys", "cohorts"]
     },
     {
-      "id": "hdr-gateway",
-      "name": "Health Data Research Gateway",
-      "description": "Searchable catalogue of UK health datasets (NHS, cohorts, biobanks, trials) with standardised metadata and a common data-access request workflow.",
-      "provider": "Health Data Research UK",
-      "region": "United Kingdom",
-      "access": "application",
-      "access_note": "Catalogue open; access to each dataset via the custodian's application process (some may charge).",
-      "url": "https://healthdatagateway.org/",
-      "paper": null,
-      "tags": ["hub", "catalogue", "UK"]
-    },
-    {
       "id": "aws-open-data",
       "name": "Registry of Open Data on AWS (life sciences)",
       "description": "Cloud-hosted public datasets you can analyse in place — e.g. gnomAD, 1000 Genomes, TCGA open tier, CAMELYON, EMBED, NIH CXR.",
@@ -170,18 +158,6 @@
       "url": "https://data.mendeley.com/",
       "paper": null,
       "tags": ["hub", "DOI"]
-    },
-    {
-      "id": "google-dataset-search",
-      "name": "Google Dataset Search",
-      "description": "Search engine indexing dataset descriptions across thousands of repositories — useful for finding datasets not listed here.",
-      "provider": "Google",
-      "region": "International",
-      "access": "open",
-      "access_note": "Open web search.",
-      "url": "https://datasetsearch.research.google.com/",
-      "paper": null,
-      "tags": ["search engine", "discovery"]
     }
   ]
 }

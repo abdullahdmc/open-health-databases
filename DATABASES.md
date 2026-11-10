@@ -1,6 +1,6 @@
 # Database list
 
-_Auto-generated from `data/*.json` by `scripts/build.mjs` — do not edit by hand. 398 databases, last built 2026-11-10._
+_Auto-generated from `data/*.json` by `scripts/build.mjs` — do not edit by hand. 400 databases, last built 2026-11-10._
 
 
 ## ICU, Perioperative & Emergency Care
@@ -91,7 +91,6 @@ Aggregated indicators, burden-of-disease estimates, mortality and cancer statist
 |---|---|---|---|
 | [WHO Global Health Observatory](https://www.who.int/data/gho) | Open | WHO's portal of 1,000+ health indicators for 194 member states — mortality, disease burden, health systems, SDG targets — with an OData API. | — |
 | [GBD Results (IHME)](https://vizhub.healthdata.org/gbd-results/) | Registration | Estimates of deaths, DALYs, prevalence and risk-factor burden for 370+ diseases and injuries in 204 countries from 1990 onward. | [GBD 2021 Diseases and Injuries Collaborators. Lancet 2024;403:2133](https://doi.org/10.1016/S0140-6736(24)00757-8) |
-| [Global Health Data Exchange (GHDx)](https://ghdx.healthdata.org/) | Open | IHME's searchable catalogue of the world's surveys, censuses, vital registration and disease registries, linking to source data wherever available. | — |
 | [World Bank Health, Nutrition & Population Statistics](https://databank.worldbank.org/source/health-nutrition-and-population-statistics) | Open | Country-level time series on health financing, service coverage, nutrition, population dynamics and outcomes, downloadable via DataBank or API. | — |
 | [Our World in Data](https://ourworldindata.org/) | Open | Curated, well-documented global datasets and charts on health topics (causes of death, vaccination, COVID-19, child mortality, life expectancy) with GitHub-hosted data. | [Mathieu E et al. Nat Hum Behav 2021;5:947](https://doi.org/10.1038/s41562-021-01122-8) |
 | [WHO Mortality Database](https://platform.who.int/mortality) | Open | Deaths by country, year, sex, age and ICD cause as reported by national civil-registration systems since 1950. | — |
@@ -418,14 +417,12 @@ General platforms that host or index many health datasets — good places to kee
 | [Kaggle Datasets](https://www.kaggle.com/datasets?tags=4202-Health) | Registration | Community data platform with thousands of medical datasets and competition data (RSNA, SIIM, APTOS, PANDA) plus free GPU notebooks. | — |
 | [ICPSR](https://www.icpsr.umich.edu/) | Registration | The world's largest archive of social and behavioural science data, including health and ageing collections (NACDA) and many NIH-funded studies. | — |
 | [UK Data Service](https://ukdataservice.ac.uk/) | Registration | UK's largest collection of social, economic and population data — including ELSA, Understanding Society, Health Survey for England and birth cohorts. | — |
-| [Health Data Research Gateway](https://healthdatagateway.org/) | Application | Searchable catalogue of UK health datasets (NHS, cohorts, biobanks, trials) with standardised metadata and a common data-access request workflow. | — |
 | [Registry of Open Data on AWS (life sciences)](https://registry.opendata.aws/?search=tags:life%20sciences) | Open | Cloud-hosted public datasets you can analyse in place — e.g. gnomAD, 1000 Genomes, TCGA open tier, CAMELYON, EMBED, NIH CXR. | — |
 | [Zenodo](https://zenodo.org/) | Open | CERN-run general-purpose open repository where many medical datasets (TotalSegmentator, CODE-15%, COUGHVID…) are deposited with DOIs. | — |
 | [meddatasets (Python package)](https://pypi.org/project/meddatasets/) | Open | Python package bundling curated medical and public-health datasets (cancer, chronic disease, hospital management, COVID-19, environmental health) for teaching and analysis. | — |
 | [Hugging Face Datasets](https://huggingface.co/datasets?search=medical) | Registration | The largest hub for ML datasets, including thousands of medical text, imaging and benchmark datasets with one-line loaders. | — |
 | [Harvard Dataverse](https://dataverse.harvard.edu/) | Open | Open research data repository with thousands of medicine, health and life-science datasets deposited with DOIs. | — |
 | [Mendeley Data](https://data.mendeley.com/) | Open | Generalist repository hosting many published clinical and biomedical datasets (e.g. Kermany OCT, PAD-UFES-20). | — |
-| [Google Dataset Search](https://datasetsearch.research.google.com/) | Open | Search engine indexing dataset descriptions across thousands of repositories — useful for finding datasets not listed here. | — |
 
 ## Medical AI, LLM & Multimodal Benchmarks
 
@@ -512,3 +509,15 @@ Gastrointestinal endoscopy, capsule endoscopy and surgical video datasets, inclu
 | [LEMON](https://github.com/visurg-ai/LEMON) | Open | 4,000+ surgical videos (938 hours) across many procedure types for pretraining surgical video foundation models. | — |
 | [SurgLaVi](https://github.com/aperezr20/SurgLaVi) | Open | ~240,000 surgical video clip–caption pairs for surgical vision-language pretraining; the open subset SurgLaVi-β is freely released. | — |
 | [GR00T-H Surgical Robot Data](https://huggingface.co/nvidia/GR00T-H) | Registration | 778 hours of surgical-robot demonstration episodes released with NVIDIA's GR00T-H healthcare robotics model. | — |
+
+## Dataset Catalogues & Search Engines
+
+Large catalogues and search tools that index thousands of datasets held elsewhere. The catalogues are free to use, but some datasets they list charge fees, so check each dataset's terms.
+
+| Database | Access | Description | Article |
+|---|---|---|---|
+| [Health Data Research Gateway](https://healthdatagateway.org/) | Open | UK national catalogue of 1,400+ health datasets (NHS records, cohorts, biobanks, trials, registries) with standardised metadata, search filters and a common data-access request workflow. | — |
+| [BrainX AI Data Catalogue](https://brainxai.org/data/) | Open | Community-curated list of ~300 medical AI datasets, benchmarks and resources (imaging, EHR, NLP, LLM evaluation, wearables) maintained by the BrainX AI community. | — |
+| [Global Health Data Exchange (GHDx)](https://ghdx.healthdata.org/) | Open | IHME's searchable catalogue of the world's surveys, censuses, vital registration and disease registries, linking to source data wherever available. | — |
+| [Google Dataset Search](https://datasetsearch.research.google.com/) | Open | Search engine indexing dataset descriptions across thousands of repositories — useful for finding datasets not listed here. | — |
+| [Mobilize Center Datasets](https://mobilize.stanford.edu/data/available-datasets/) | Open | Curated list of wearable-sensor and human-movement datasets (accelerometry, biomechanics, gait) such as AddBiomechanics and NHANES accelerometry. | — |

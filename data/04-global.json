@@ -29,18 +29,6 @@
       "tags": ["burden of disease", "DALYs"]
     },
     {
-      "id": "ghdx",
-      "name": "Global Health Data Exchange (GHDx)",
-      "description": "IHME's searchable catalogue of the world's surveys, censuses, vital registration and disease registries, linking to source data wherever available.",
-      "provider": "Institute for Health Metrics and Evaluation",
-      "region": "Global",
-      "access": "open",
-      "access_note": "Open catalogue; access terms of each linked dataset vary.",
-      "url": "https://ghdx.healthdata.org/",
-      "paper": null,
-      "tags": ["catalogue", "metadata"]
-    },
-    {
       "id": "worldbank-hnp",
       "name": "World Bank Health, Nutrition & Population Statistics",
       "description": "Country-level time series on health financing, service coverage, nutrition, population dynamics and outcomes, downloadable via DataBank or API.",

@@ -1,0 +1,67 @@
+{
+  "category": "catalogues",
+  "title": "Dataset Catalogues & Search Engines",
+  "blurb": "Large catalogues and search tools that index thousands of datasets held elsewhere. The catalogues are free to use, but some datasets they list charge fees, so check each dataset's terms.",
+  "items": [
+    {
+      "id": "hdr-gateway",
+      "name": "Health Data Research Gateway",
+      "description": "UK national catalogue of 1,400+ health datasets (NHS records, cohorts, biobanks, trials, registries) with standardised metadata, search filters and a common data-access request workflow.",
+      "provider": "Health Data Research UK",
+      "region": "United Kingdom",
+      "access": "open",
+      "access_note": "Catalogue free to search. Access to each dataset is via its custodian: many are free, some charge fees.",
+      "url": "https://healthdatagateway.org/",
+      "paper": null,
+      "tags": ["hub", "catalogue", "UK"]
+    },
+    {
+      "id": "brainxai-data",
+      "name": "BrainX AI Data Catalogue",
+      "description": "Community-curated list of ~300 medical AI datasets, benchmarks and resources (imaging, EHR, NLP, LLM evaluation, wearables) maintained by the BrainX AI community.",
+      "provider": "BrainX Community",
+      "region": "International",
+      "access": "open",
+      "access_note": "Free web list; each linked dataset has its own terms, and a few are fee-based.",
+      "url": "https://brainxai.org/data/",
+      "paper": null,
+      "tags": ["catalogue", "AI", "benchmarks"]
+    },
+    {
+      "id": "ghdx",
+      "name": "Global Health Data Exchange (GHDx)",
+      "description": "IHME's searchable catalogue of the world's surveys, censuses, vital registration and disease registries, linking to source data wherever available.",
+      "provider": "Institute for Health Metrics and Evaluation",
+      "region": "Global",
+      "access": "open",
+      "access_note": "Catalogue free to search; access terms of each linked dataset vary.",
+      "url": "https://ghdx.healthdata.org/",
+      "paper": null,
+      "tags": ["catalogue", "metadata"]
+    },
+    {
+      "id": "google-dataset-search",
+      "name": "Google Dataset Search",
+      "description": "Search engine indexing dataset descriptions across thousands of repositories — useful for finding datasets not listed here.",
+      "provider": "Google",
+      "region": "International",
+      "access": "open",
+      "access_note": "Free web search; results include both free and paid datasets.",
+      "url": "https://datasetsearch.research.google.com/",
+      "paper": null,
+      "tags": ["search engine", "discovery"]
+    },
+    {
+      "id": "mobilize-datasets",
+      "name": "Mobilize Center Datasets",
+      "description": "Curated list of wearable-sensor and human-movement datasets (accelerometry, biomechanics, gait) such as AddBiomechanics and NHANES accelerometry.",
+      "provider": "Stanford Mobilize Center",
+      "region": "International",
+      "access": "open",
+      "access_note": "Free list; each dataset has its own terms, and some (e.g. UK Biobank) are fee-based.",
+      "url": "https://mobilize.stanford.edu/data/available-datasets/",
+      "paper": null,
+      "tags": ["catalogue", "wearables", "movement"]
+    }
+  ]
+}
