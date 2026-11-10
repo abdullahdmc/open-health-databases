@@ -55,9 +55,14 @@
     writeUrl();
   }
 
+  // When filtering from further down the page, bring the reader back to the
+  // start of the (now shorter) results instead of leaving them past the end.
+  const results = document.getElementById("results");
   function toggle(set, key) {
     set.has(key) ? set.delete(key) : set.add(key);
     apply();
+    const top = results.getBoundingClientRect().top + scrollY - document.getElementById("toolbar").offsetHeight;
+    if (scrollY > top) scrollTo({ top, behavior: "auto" });
   }
 
   let timer;

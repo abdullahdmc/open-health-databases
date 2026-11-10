@@ -69,7 +69,7 @@ const sections = categories
   .map((c) => `<section class="cat" id="cat-${esc(c.category)}" data-cat="${esc(c.category)}">
   <div class="cat-head"><h2>${esc(c.title)} <span class="cat-count">${c.items.length}</span></h2><p>${esc(c.blurb)}</p></div>
   <div class="grid">
-${c.items.map(card).join("\n")}
+${c.items.map((it) => card({ ...it, category: c.category })).join("\n")}
   </div>
 </section>`)
   .join("\n");
