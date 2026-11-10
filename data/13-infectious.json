@@ -196,6 +196,30 @@
       "url": "https://global.health/",
       "paper": null,
       "tags": ["outbreaks", "line lists"]
+    },
+    {
+      "id": "flusense",
+      "name": "FluSense",
+      "description": "350,000+ waiting-room thermal images and 21 million audio samples (coughs, speech) from a university clinic for influenza-like-illness surveillance.",
+      "provider": "UMass Amherst",
+      "region": "USA",
+      "access": "open",
+      "access_note": "Direct download from GitHub.",
+      "url": "https://github.com/Forsad/FluSense-data",
+      "paper": {"label": "Al Hossain F et al. Proc ACM IMWUT 2020;4:1", "url": "https://doi.org/10.1145/3381014"},
+      "tags": ["influenza", "audio", "surveillance"]
+    },
+    {
+      "id": "protective-policy-index",
+      "name": "Protective Policy Index (PPI)",
+      "description": "Daily index of COVID-19 protective policy stringency for US states and other jurisdictions during 2020.",
+      "provider": "COVID-19 Policy Response Lab",
+      "region": "USA",
+      "access": "open",
+      "access_note": "Direct download from GitHub.",
+      "url": "https://github.com/COVID-policy-response-lab/PPI-data",
+      "paper": null,
+      "tags": ["COVID-19", "policy"]
     }
   ]
 }

@@ -366,6 +366,42 @@
       "url": "https://www.immport.org/",
       "paper": {"label": "Bhattacharya S et al. Sci Data 2018;5:180015", "url": "https://doi.org/10.1038/sdata.2018.15"},
       "tags": ["immunology", "trials"]
+    },
+    {
+      "id": "decipher",
+      "name": "DECIPHER",
+      "description": "Database of genomic variants and phenotypes from ~50,000 consented patients with rare developmental disorders, used for variant interpretation.",
+      "provider": "Wellcome Sanger Institute",
+      "region": "Global",
+      "access": "registration",
+      "access_note": "Open-access records browsable; bulk download under a data access agreement.",
+      "url": "https://www.deciphergenomics.org/",
+      "paper": {"label": "Firth HV et al. Am J Hum Genet 2009;84:524", "url": "https://doi.org/10.1016/j.ajhg.2009.03.010"},
+      "tags": ["rare disease", "CNV", "variant interpretation"]
+    },
+    {
+      "id": "pgc-gwas",
+      "name": "PGC Psychiatric GWAS Summary Statistics",
+      "description": "Genome-wide association summary statistics for schizophrenia, bipolar disorder, depression, ADHD, autism and other psychiatric disorders.",
+      "provider": "Psychiatric Genomics Consortium",
+      "region": "International",
+      "access": "open",
+      "access_note": "Direct download (most results); also mirrored on Hugging Face.",
+      "url": "https://pgc.unc.edu/for-researchers/download-results/",
+      "paper": null,
+      "tags": ["GWAS", "psychiatry", "summary statistics"]
+    },
+    {
+      "id": "tahoe-100m",
+      "name": "Tahoe-100M",
+      "description": "100 million single-cell transcriptomic profiles of cancer cell lines under ~1,100 drug perturbations — the largest single-cell perturbation atlas.",
+      "provider": "Tahoe Therapeutics / Arc Institute",
+      "region": "International",
+      "access": "open",
+      "access_note": "Direct download from Hugging Face.",
+      "url": "https://huggingface.co/datasets/tahoebio/Tahoe-100M",
+      "paper": null,
+      "tags": ["single-cell", "perturbation", "drug response"]
     }
   ]
 }

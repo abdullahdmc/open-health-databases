@@ -122,6 +122,66 @@
       "url": "https://zenodo.org/",
       "paper": null,
       "tags": ["hub", "DOI"]
+    },
+    {
+      "id": "meddatasets-py",
+      "name": "meddatasets (Python package)",
+      "description": "Python package bundling curated medical and public-health datasets (cancer, chronic disease, hospital management, COVID-19, environmental health) for teaching and analysis.",
+      "provider": "Renzo Caceres Rossi",
+      "region": "International",
+      "access": "open",
+      "access_note": "pip install meddatasets (MIT licence); source on GitHub.",
+      "url": "https://pypi.org/project/meddatasets/",
+      "paper": null,
+      "tags": ["Python package", "teaching"]
+    },
+    {
+      "id": "huggingface-datasets",
+      "name": "Hugging Face Datasets",
+      "description": "The largest hub for ML datasets, including thousands of medical text, imaging and benchmark datasets with one-line loaders.",
+      "provider": "Hugging Face",
+      "region": "International",
+      "access": "registration",
+      "access_note": "Most datasets open; gated ones need a free account and accepting terms.",
+      "url": "https://huggingface.co/datasets?search=medical",
+      "paper": null,
+      "tags": ["hub", "AI"]
+    },
+    {
+      "id": "harvard-dataverse",
+      "name": "Harvard Dataverse",
+      "description": "Open research data repository with thousands of medicine, health and life-science datasets deposited with DOIs.",
+      "provider": "Harvard University",
+      "region": "International",
+      "access": "open",
+      "access_note": "Mostly open; some datasets restricted by depositors.",
+      "url": "https://dataverse.harvard.edu/",
+      "paper": null,
+      "tags": ["hub", "DOI"]
+    },
+    {
+      "id": "mendeley-data",
+      "name": "Mendeley Data",
+      "description": "Generalist repository hosting many published clinical and biomedical datasets (e.g. Kermany OCT, PAD-UFES-20).",
+      "provider": "Elsevier",
+      "region": "International",
+      "access": "open",
+      "access_note": "Open; per-dataset licences.",
+      "url": "https://data.mendeley.com/",
+      "paper": null,
+      "tags": ["hub", "DOI"]
+    },
+    {
+      "id": "google-dataset-search",
+      "name": "Google Dataset Search",
+      "description": "Search engine indexing dataset descriptions across thousands of repositories — useful for finding datasets not listed here.",
+      "provider": "Google",
+      "region": "International",
+      "access": "open",
+      "access_note": "Open web search.",
+      "url": "https://datasetsearch.research.google.com/",
+      "paper": null,
+      "tags": ["search engine", "discovery"]
     }
   ]
 }

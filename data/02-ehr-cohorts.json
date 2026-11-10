@@ -166,6 +166,54 @@
       "url": "https://archive.ics.uci.edu/dataset/45/heart+disease",
       "paper": null,
       "tags": ["cardiology", "teaching", "tabular"]
+    },
+    {
+      "id": "ai-readi",
+      "name": "AI-READI",
+      "description": "Flagship Bridge2AI dataset on type 2 diabetes: 2,280 participants with retinal imaging, ECG, continuous glucose monitoring, wearables, environmental sensors and surveys (~3.9 TB).",
+      "provider": "AI-READI Consortium (NIH Bridge2AI)",
+      "region": "USA",
+      "access": "registration",
+      "access_note": "Free; controlled-access download via FAIRhub after accepting the licence.",
+      "url": "https://docs.aireadi.org/",
+      "paper": null,
+      "tags": ["diabetes", "multimodal", "AI-ready"]
+    },
+    {
+      "id": "udn",
+      "name": "Undiagnosed Diseases Network (UDN)",
+      "description": "Genomic sequences and deep phenotypes of patients with undiagnosed rare conditions, released annually through dbGaP.",
+      "provider": "NIH Common Fund / Harvard",
+      "region": "USA",
+      "access": "application",
+      "access_note": "Free; dbGaP authorised-access application.",
+      "url": "https://undiagnosed.hms.harvard.edu/research/data-availability/",
+      "paper": null,
+      "tags": ["rare disease", "genomics"]
+    },
+    {
+      "id": "isaric-covid",
+      "name": "ISARIC COVID-19 Data Platform",
+      "description": "Standardised clinical data on 700,000+ hospitalised and outpatient COVID-19 patients from 60+ countries.",
+      "provider": "ISARIC / Infectious Diseases Data Observatory",
+      "region": "Global",
+      "access": "application",
+      "access_note": "Free; data access request to the IDDO committee.",
+      "url": "https://www.iddo.org/covid-19",
+      "paper": null,
+      "tags": ["COVID-19", "clinical cohort"]
+    },
+    {
+      "id": "ohiot1dm",
+      "name": "OhioT1DM",
+      "description": "Eight weeks of CGM glucose, insulin, meals, exercise, sleep and wearable data for 12 people with type 1 diabetes.",
+      "provider": "Ohio University",
+      "region": "USA",
+      "access": "application",
+      "access_note": "Free; sign and return a data use agreement.",
+      "url": "https://webpages.charlotte.edu/rbunescu/data/ohiot1dm/OhioT1DM-dataset.html",
+      "paper": {"label": "Marling C, Bunescu R. KDH Workshop 2020", "url": "https://ceur-ws.org/Vol-2675/paper11.pdf"},
+      "tags": ["diabetes", "CGM", "wearables"]
     }
   ]
 }

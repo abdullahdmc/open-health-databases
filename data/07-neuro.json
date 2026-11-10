@@ -163,6 +163,79 @@
       "url": "https://physionet.org/content/eegmmidb/",
       "paper": {"label": "Schalk G et al. IEEE Trans Biomed Eng 2004;51:1034", "url": "https://doi.org/10.1109/TBME.2004.827072"},
       "tags": ["EEG", "BCI"]
+    },
+    {
+      "id": "neurodatasets-r",
+      "name": "NeuroDataSets (R package)",
+      "description": "R package bundling a diverse collection of ready-to-use datasets on the brain, nervous system and neurological and psychiatric disorders, each documented with its original source and licence.",
+      "provider": "Renzo Caceres Rossi",
+      "region": "International",
+      "access": "open",
+      "access_note": "install.packages(\"NeuroDataSets\") from CRAN; source on GitHub.",
+      "url": "https://lightbluetitan.github.io/neurodatasets/",
+      "paper": null,
+      "tags": ["R package", "teaching", "hub"]
+    },
+    {
+      "id": "upenn-gbm",
+      "name": "UPENN-GBM",
+      "description": "Multiparametric MRI of 630 glioblastoma patients with tumour segmentations, radiomic features, genomics and survival.",
+      "provider": "University of Pennsylvania via TCIA",
+      "region": "USA",
+      "access": "open",
+      "access_note": "Direct download from TCIA.",
+      "url": "https://www.cancerimagingarchive.net/collection/upenn-gbm/",
+      "paper": {"label": "Bakas S et al. Sci Data 2022;9:453", "url": "https://doi.org/10.1038/s41597-022-01560-7"},
+      "tags": ["MRI", "glioblastoma"]
+    },
+    {
+      "id": "brats-africa",
+      "name": "BraTS-Africa",
+      "description": "Pre-operative brain MRI with glioma segmentations for 146 patients from Nigeria, addressing under-representation of African populations.",
+      "provider": "BraTS / Medical Artificial Intelligence Lab, Lagos",
+      "region": "Nigeria",
+      "access": "open",
+      "access_note": "Direct download from TCIA.",
+      "url": "https://www.cancerimagingarchive.net/collection/brats-africa/",
+      "paper": {"label": "Adewole M et al. arXiv 2023", "url": "https://arxiv.org/abs/2305.19369"},
+      "tags": ["MRI", "glioma", "Africa"]
+    },
+    {
+      "id": "atlas-stroke",
+      "name": "ATLAS v2.0",
+      "full_name": "Anatomical Tracings of Lesions After Stroke",
+      "description": "955 T1-weighted MRIs of stroke patients with manually segmented lesions from 33 cohorts worldwide.",
+      "provider": "University of Southern California",
+      "region": "International",
+      "access": "registration",
+      "access_note": "Free ICPSR login and data use agreement.",
+      "url": "https://www.icpsr.umich.edu/web/ADDEP/studies/36684",
+      "paper": {"label": "Liew SL et al. Sci Data 2022;9:320", "url": "https://doi.org/10.1038/s41597-022-01401-7"},
+      "tags": ["MRI", "stroke", "segmentation"]
+    },
+    {
+      "id": "nyumets",
+      "name": "NYUMets: Brain",
+      "description": "Longitudinal MRI, segmentations, treatment (gamma knife) and outcome data of patients with brain metastases from NYU Langone.",
+      "provider": "NYU Langone Health",
+      "region": "USA",
+      "access": "application",
+      "access_note": "Free; request access and sign a data use agreement.",
+      "url": "https://nyumets.org/",
+      "paper": null,
+      "tags": ["MRI", "brain metastases", "longitudinal"]
+    },
+    {
+      "id": "eegeyenet",
+      "name": "EEGEyeNet",
+      "description": "Simultaneous high-density EEG and eye-tracking recordings from 356 participants (47+ hours) for gaze estimation benchmarks.",
+      "provider": "ETH Zürich / University of Zürich",
+      "region": "Switzerland",
+      "access": "open",
+      "access_note": "Direct download from OSF.",
+      "url": "https://osf.io/ktv7m/",
+      "paper": {"label": "Kastrati A et al. NeurIPS 2021 Datasets & Benchmarks", "url": "https://arxiv.org/abs/2111.05100"},
+      "tags": ["EEG", "eye tracking"]
     }
   ]
 }

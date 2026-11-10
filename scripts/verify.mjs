@@ -58,6 +58,13 @@ const results = await pool(items, 8, async (it) => {
   const u = await fetchStatus(it.url);
   r.url_status = u.status; r.final = u.final; r.url_error = u.error;
   if (u.text) r.physionet_policy = physionetPolicy(u.text);
+  const hf = it.url.match(/huggingface\.co\/datasets\/([^/?#]+\/[^/?#]+)/);
+  if (hf) {
+    try {
+      const meta = await (await fetch(`https://huggingface.co/api/datasets/${hf[1]}`, { signal: AbortSignal.timeout(25000) })).json();
+      r.hf_gated = meta.gated; // false | "auto" | "manual"
+    } catch { r.hf_gated = "unknown"; }
+  }
   if (it.paper?.url?.startsWith("https://doi.org/")) r.paper = { label: it.paper.label, ...(await crossrefTitle(it.paper.url)) };
   else if (it.paper) r.paper = { label: it.paper.label, ...(await fetchStatus(it.paper.url)), text: undefined };
   return r;
@@ -72,6 +79,7 @@ for (const r of results) {
   if (r.url_status !== 200) flags.push(`URL ${r.url_status}${r.url_error ? " " + r.url_error : ""}`);
   if (r.physionet_policy && r.physionet_policy !== r.access) flags.push(`PhysioNet says ${r.physionet_policy}, we say ${r.access}`);
   if (r.paper && r.paper.status !== 200) flags.push(`PAPER ${r.paper.status}`);
+  if (r.hf_gated !== undefined && (r.hf_gated ? "registration" : "open") !== r.access) flags.push(`HF gated=${r.hf_gated}, we say ${r.access}`);
   console.log(`${flags.length ? "!!" : "ok"} ${r.id}${flags.length ? "  -> " + flags.join(" | ") : ""}`);
   if (r.paper?.title) console.log(`     paper: ${r.paper.title} (${r.paper.journal}, ${r.paper.year})`);
 }

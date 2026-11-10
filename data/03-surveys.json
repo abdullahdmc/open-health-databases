@@ -233,6 +233,32 @@
       "url": "https://healthsurveys.ipums.org/",
       "paper": null,
       "tags": ["survey", "harmonised"]
+    },
+    {
+      "id": "elsi-brazil",
+      "name": "ELSI-Brazil",
+      "full_name": "Brazilian Longitudinal Study of Ageing",
+      "description": "Nationally representative cohort of Brazilians aged 50+ (9,412 at baseline) covering health, function, care and economics; part of the HRS family.",
+      "provider": "Fiocruz / UFMG",
+      "region": "Brazil",
+      "access": "registration",
+      "access_note": "Free registration and acceptance of terms.",
+      "url": "https://elsi.cpqrr.fiocruz.br/en/home-english/en-data-access/",
+      "paper": {"label": "Lima-Costa MF et al. Am J Epidemiol 2018;187:1345", "url": "https://doi.org/10.1093/aje/kwx387"},
+      "tags": ["ageing", "cohort", "Latin America"]
+    },
+    {
+      "id": "nanda",
+      "name": "NaNDA",
+      "full_name": "National Neighborhood Data Archive",
+      "description": "US neighbourhood-level measures (food, healthcare, transport, pollution, amenities) by census tract and ZIP code for social-determinants research.",
+      "provider": "University of Michigan / ICPSR",
+      "region": "USA",
+      "access": "registration",
+      "access_note": "Free ICPSR login.",
+      "url": "https://www.icpsr.umich.edu/web/ICPSR/series/1920",
+      "paper": null,
+      "tags": ["social determinants", "geospatial"]
     }
   ]
 }

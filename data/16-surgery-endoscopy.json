@@ -1,0 +1,79 @@
+{
+  "category": "surgery-endoscopy",
+  "title": "Endoscopy & Surgical Video",
+  "blurb": "Gastrointestinal endoscopy, capsule endoscopy and surgical video datasets, including robot demonstrations.",
+  "items": [
+    {
+      "id": "kvasir",
+      "name": "Kvasir family (Kvasir v2, Kvasir-SEG, Kvasir-Capsule, HyperKvasir)",
+      "description": "Gastrointestinal endoscopy image and video collections from Norway: 8,000 labelled images (v2), polyp segmentation masks (SEG), 4.7M video-capsule frames (Capsule) and 110,000+ images (HyperKvasir).",
+      "provider": "Simula Research Laboratory / Vestre Viken Hospital",
+      "region": "Norway",
+      "access": "open",
+      "access_note": "Direct download for research and education.",
+      "url": "https://datasets.simula.no/kvasir/",
+      "paper": {"label": "Pogorelov K et al. ACM MMSys 2017", "url": "https://doi.org/10.1145/3083187.3083212"},
+      "tags": ["endoscopy", "polyps", "capsule"]
+    },
+    {
+      "id": "nerthus",
+      "name": "Nerthus",
+      "description": "21 colonoscopy videos (5,525 frames) labelled with the Boston Bowel Preparation Scale for bowel-cleansing assessment.",
+      "provider": "Simula Research Laboratory",
+      "region": "Norway",
+      "access": "open",
+      "access_note": "Direct download.",
+      "url": "https://datasets.simula.no/nerthus/",
+      "paper": {"label": "Pogorelov K et al. ACM MMSys 2017", "url": "https://doi.org/10.1145/3083187.3083216"},
+      "tags": ["colonoscopy", "bowel preparation"]
+    },
+    {
+      "id": "see-ai-capsule",
+      "name": "SEE-AI Small Bowel Capsule Endoscopy",
+      "description": "18,481 small-bowel capsule endoscopy images with bounding-box annotations for lesion detection.",
+      "provider": "Kyushu University / SEE-AI project",
+      "region": "Japan",
+      "access": "registration",
+      "access_note": "Free Kaggle account.",
+      "url": "https://www.kaggle.com/datasets/capsuleyolo/kyucapsule",
+      "paper": null,
+      "tags": ["capsule endoscopy", "object detection"]
+    },
+    {
+      "id": "lemon-surgical",
+      "name": "LEMON",
+      "description": "4,000+ surgical videos (938 hours) across many procedure types for pretraining surgical video foundation models.",
+      "provider": "visurg.ai / King's College London",
+      "region": "International",
+      "access": "open",
+      "access_note": "Video list and download scripts on GitHub.",
+      "url": "https://github.com/visurg-ai/LEMON",
+      "paper": null,
+      "tags": ["surgical video", "foundation models"]
+    },
+    {
+      "id": "surglavi",
+      "name": "SurgLaVi",
+      "description": "~240,000 surgical video clip–caption pairs for surgical vision-language pretraining; the open subset SurgLaVi-β is freely released.",
+      "provider": "Pérez R. et al.",
+      "region": "International",
+      "access": "open",
+      "access_note": "Open subset via GitHub.",
+      "url": "https://github.com/aperezr20/SurgLaVi",
+      "paper": null,
+      "tags": ["surgical video", "vision-language"]
+    },
+    {
+      "id": "gr00t-h",
+      "name": "GR00T-H Surgical Robot Data",
+      "description": "778 hours of surgical-robot demonstration episodes released with NVIDIA's GR00T-H healthcare robotics model.",
+      "provider": "NVIDIA",
+      "region": "International",
+      "access": "registration",
+      "access_note": "Hugging Face account and acceptance of licence terms.",
+      "url": "https://huggingface.co/nvidia/GR00T-H",
+      "paper": null,
+      "tags": ["surgical robotics", "demonstrations"]
+    }
+  ]
+}

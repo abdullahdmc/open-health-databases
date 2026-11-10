@@ -160,6 +160,42 @@
       "url": "https://atcddd.fhi.no/atc_ddd_index/",
       "paper": null,
       "tags": ["classification", "drug utilisation"]
+    },
+    {
+      "id": "tdc",
+      "name": "Therapeutics Data Commons (TDC)",
+      "description": "66 AI-ready datasets and benchmarks spanning target discovery, ADMET, drug–drug interactions, clinical trial outcomes and more.",
+      "provider": "Harvard / MIT / Stanford",
+      "region": "International",
+      "access": "open",
+      "access_note": "Open (Python package and downloads).",
+      "url": "https://tdcommons.ai/",
+      "paper": {"label": "Huang K et al. NeurIPS 2021 Datasets & Benchmarks", "url": "https://arxiv.org/abs/2102.09548"},
+      "tags": ["drug discovery", "benchmark"]
+    },
+    {
+      "id": "dilirank",
+      "name": "DILIrank",
+      "description": "1,036 FDA-approved drugs ranked by risk of drug-induced liver injury from labelling and literature.",
+      "provider": "US FDA NCTR",
+      "region": "USA",
+      "access": "open",
+      "access_note": "Direct download.",
+      "url": "https://www.fda.gov/science-research/liver-toxicity-knowledge-base-ltkb/drug-induced-liver-injury-rank-dilirank-dataset",
+      "paper": {"label": "Chen M et al. Drug Discov Today 2016;21:648", "url": "https://doi.org/10.1016/j.drudis.2016.02.015"},
+      "tags": ["hepatotoxicity", "drug safety"]
+    },
+    {
+      "id": "unitox",
+      "name": "UniTox",
+      "description": "LLM-extracted, clinician-checked toxicity summaries and ratings across eight organ systems for 2,418 FDA-approved drugs.",
+      "provider": "Stanford University",
+      "region": "USA",
+      "access": "open",
+      "access_note": "Direct download from Zenodo.",
+      "url": "https://zenodo.org/records/11627822",
+      "paper": null,
+      "tags": ["toxicity", "drug labels"]
     }
   ]
 }

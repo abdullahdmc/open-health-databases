@@ -183,6 +183,30 @@
       "url": "https://data.cms.gov/",
       "paper": null,
       "tags": ["claims", "health services"]
+    },
+    {
+      "id": "datasus",
+      "name": "DATASUS (TabNet)",
+      "description": "Brazilian Ministry of Health information system: hospital admissions (SIH), mortality (SIM), births (SINASC), notifiable diseases (SINAN) and more.",
+      "provider": "Brazilian Ministry of Health",
+      "region": "Brazil",
+      "access": "open",
+      "access_note": "Open web tabulation and file downloads.",
+      "url": "https://datasus.saude.gov.br/informacoes-de-saude-tabnet/",
+      "paper": null,
+      "tags": ["health services", "mortality", "Latin America"]
+    },
+    {
+      "id": "worldpop",
+      "name": "WorldPop",
+      "description": "High-resolution gridded population, demographic, births and urbanisation estimates for every country — essential denominators for health mapping.",
+      "provider": "University of Southampton",
+      "region": "Global",
+      "access": "open",
+      "access_note": "Open download (CC BY 4.0).",
+      "url": "https://www.worldpop.org/datacatalog/",
+      "paper": null,
+      "tags": ["population", "geospatial"]
     }
   ]
 }

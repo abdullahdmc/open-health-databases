@@ -1,6 +1,6 @@
 # Database list
 
-_Auto-generated from `data/*.json` by `scripts/build.mjs` — do not edit by hand. 233 databases, last built 2026-11-05._
+_Auto-generated from `data/*.json` by `scripts/build.mjs` — do not edit by hand. 398 databases, last built 2026-11-10._
 
 
 ## ICU, Perioperative & Emergency Care
@@ -25,6 +25,12 @@ Detailed, de-identified records from intensive care units, operating rooms and e
 | [MC-MED](https://physionet.org/content/mc-med/) | Credentialed | 118,385 adult ED visits at Stanford (2020–2022) pairing continuous vitals and waveforms (ECG, PPG, respiration) with structured EHR data and radiology reports. | [Kansal A et al. Sci Data 2025](https://doi.org/10.1038/s41597-025-05419-5) |
 | [MOVER](https://archive.ics.uci.edu/dataset/877) | Application | Operating-room data from ~58,000 surgical patients at UC Irvine Medical Center, including intraoperative waveforms, vitals, medications and perioperative EHR records. | [Samad M et al. JAMIA Open 2023;6:ooad084](https://doi.org/10.1093/jamiaopen/ooad084) |
 | [PhysioNet/CinC Challenge 2019 (Sepsis)](https://physionet.org/content/challenge-2019/) | Open | Hourly ICU data for ~40,000 patients from three hospital systems, released for early prediction of sepsis. A compact, ready-to-model benchmark. | [Reyna MA et al. Crit Care Med 2020;48:210](https://doi.org/10.1097/CCM.0000000000004145) |
+| [NWICU](https://physionet.org/content/nwicu-northwestern-icu/) | Credentialed | Harmonised ICU data for 25,000+ patients at Northwestern Medicine (2020–2022) in a MIMIC-IV-compatible structure, enabling multi-centre validation. | — |
+| [Zigong ICU Infection Database](https://physionet.org/content/icu-infection-zigong-fourth/) | Credentialed | ICU records of patients with infection at Zigong Fourth People's Hospital, China (2019–2020), with vitals, labs, drugs and outcomes. | — |
+| [MIMIC-IV-Ext-22MCTS](https://physionet.org/content/mimic-iv-ext-22mcts/) | Credentialed | 22.6 million clinical time-series events derived from MIMIC-IV discharge summaries for temporal reasoning research. | — |
+| [INSPECT](https://stanfordaimi.azurewebsites.net/datasets/521d0d11-7c3c-45ef-8b99-a49cd70cba2c) | Registration | Multimodal pulmonary-embolism dataset of 19,438 patients: CT pulmonary angiograms, radiology impressions and longitudinal structured EHR data with outcome labels. | [Huang SC et al. NeurIPS 2023 Datasets & Benchmarks](https://arxiv.org/abs/2311.10798) |
+| [University of Queensland Vital Signs Dataset](https://outbox.eait.uq.edu.au/uqdliu3/uqvitalsignsdataset/index.html) | Open | High-resolution anaesthesia monitoring data (vital signs and waveforms) from 32 surgical cases at the Royal Adelaide Hospital. | [Liu D et al. Anesth Analg 2012;114:584](https://doi.org/10.1213/ANE.0b013e318241f7c0) |
+| [HDHI Hospital Admissions](https://www.kaggle.com/datasets/ashishsahani/hospital-admissions-data) | Registration | 14,845 admissions of 12,238 patients to the cardiac unit of Hero DMC Heart Institute, Ludhiana, India (2017–2019) with labs, comorbidities and outcomes. | — |
 
 ## EHR, Cohorts, Registries & Synthetic Data
 
@@ -45,6 +51,10 @@ Large longitudinal research cohorts, national registries, multi-site EHR enclave
 | [NACC](https://naccdata.org/) | Application | Standardised longitudinal clinical and neuropathology data from US Alzheimer's Disease Research Centers (>50,000 participants). | — |
 | [PRO-ACT](https://ncri1.partners.org/ProACT) | Registration | Harmonised records of >11,000 ALS patients pooled from completed clinical trials — the largest ALS clinical trial dataset. | [Atassi N et al. Neurology 2014;83:1719](https://doi.org/10.1212/WNL.0000000000000951) |
 | [UCI Heart Disease (Cleveland)](https://archive.ics.uci.edu/dataset/45/heart+disease) | Open | Small classic dataset of 303 patients from Cleveland (plus Hungary, Switzerland, Long Beach) with 14 clinical attributes for predicting coronary artery disease — widely used in teaching. | — |
+| [AI-READI](https://docs.aireadi.org/) | Registration | Flagship Bridge2AI dataset on type 2 diabetes: 2,280 participants with retinal imaging, ECG, continuous glucose monitoring, wearables, environmental sensors and surveys (~3.9 TB). | — |
+| [Undiagnosed Diseases Network (UDN)](https://undiagnosed.hms.harvard.edu/research/data-availability/) | Application | Genomic sequences and deep phenotypes of patients with undiagnosed rare conditions, released annually through dbGaP. | — |
+| [ISARIC COVID-19 Data Platform](https://www.iddo.org/covid-19) | Application | Standardised clinical data on 700,000+ hospitalised and outpatient COVID-19 patients from 60+ countries. | — |
+| [OhioT1DM](https://webpages.charlotte.edu/rbunescu/data/ohiot1dm/OhioT1DM-dataset.html) | Application | Eight weeks of CGM glucose, insulin, meals, exercise, sleep and wearable data for 12 people with type 1 diabetes. | [Marling C, Bunescu R. KDH Workshop 2020](https://ceur-ws.org/Vol-2675/paper11.pdf) |
 
 ## Population & Public-Health Surveys
 
@@ -70,6 +80,8 @@ Nationally representative household, health-examination and ageing surveys — t
 | [KNHANES](https://knhanes.kdca.go.kr/knhanes/main.do) | Registration | South Korea's national health-examination survey (since 1998) with interviews, physical exams, labs and nutrition data, modelled on NHANES. | [Kweon S et al. Int J Epidemiol 2014;43:69](https://doi.org/10.1093/ije/dyt228) |
 | [Gateway to Global Aging Data](https://g2aging.org/) | Registration | Harmonised data files and documentation for the HRS family of ageing studies (HRS, ELSA, SHARE, CHARLS, LASI, MHAS, KLoSA and more) for cross-country comparison. | — |
 | [IPUMS Health Surveys](https://healthsurveys.ipums.org/) | Registration | Harmonised, documented versions of NHIS (1963–present) and MEPS with a custom data-extract builder that makes multi-year analysis simple. | — |
+| [ELSI-Brazil](https://elsi.cpqrr.fiocruz.br/en/home-english/en-data-access/) | Registration | Nationally representative cohort of Brazilians aged 50+ (9,412 at baseline) covering health, function, care and economics; part of the HRS family. | [Lima-Costa MF et al. Am J Epidemiol 2018;187:1345](https://doi.org/10.1093/aje/kwx387) |
+| [NaNDA](https://www.icpsr.umich.edu/web/ICPSR/series/1920) | Registration | US neighbourhood-level measures (food, healthcare, transport, pollution, amenities) by census tract and ZIP code for social-determinants research. | — |
 
 ## Global Health & Vital Statistics
 
@@ -92,6 +104,8 @@ Aggregated indicators, burden-of-disease estimates, mortality and cancer statist
 | [Eurostat Health Statistics](https://ec.europa.eu/eurostat/web/health/database) | Open | EU-wide statistics on causes of death, health-care resources and expenditure, health status (EHIS) and accidents at work. | — |
 | [HealthData.gov](https://healthdata.gov/) | Open | US federal catalogue of thousands of health datasets from HHS agencies (CDC, CMS, FDA, NIH) with API access. | — |
 | [CMS Data (data.cms.gov)](https://data.cms.gov/) | Open | Public Medicare and Medicaid datasets: provider utilisation and payments, Part D prescribers, hospital quality and cost reports. | — |
+| [DATASUS (TabNet)](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/) | Open | Brazilian Ministry of Health information system: hospital admissions (SIH), mortality (SIM), births (SINASC), notifiable diseases (SINAN) and more. | — |
+| [WorldPop](https://www.worldpop.org/datacatalog/) | Open | High-resolution gridded population, demographic, births and urbanisation estimates for every country — essential denominators for health mapping. | — |
 
 ## Radiology & Medical Imaging
 
@@ -128,6 +142,33 @@ Chest X-ray, CT, MRI, mammography, ultrasound and echocardiography collections, 
 | [COVIDx](https://github.com/lindawangg/COVID-Net) | Open | Open benchmark of tens of thousands of chest X-rays and CT scans assembled from multiple public sources for COVID-19 detection (COVID-Net). | [Wang L et al. Sci Rep 2020;10:19549](https://doi.org/10.1038/s41598-020-76550-z) |
 | [BIMCV-COVID19+](https://bimcv.cipf.es/bimcv-projects/bimcv-covid19/) | Open | Chest X-ray and CT studies of COVID-19 patients from the Valencian region with radiological findings, reports and lab results. | — |
 | [MedPix](https://medpix.nlm.nih.gov/) | Open | Free open-access database of ~59,000 medical images and ~12,000 teaching cases indexed by diagnosis, organ system and modality. | — |
+| [MIDRC](https://www.midrc.org/) | Registration | Open commons of 500,000+ de-identified imaging studies (chest X-ray, CT, MRI) with clinical data, initially built for COVID-19. | — |
+| [Duke-CSpineSeg](https://data.midrc.org/discovery/H6K0-A61V) | Registration | 1,255 cervical spine MRI exams with vertebra and disc segmentations from Duke University Health System. | — |
+| [Duke Breast Cancer MRI](https://www.cancerimagingarchive.net/collection/duke-breast-cancer-mri/) | Open | Pre-operative dynamic contrast-enhanced breast MRI of 922 invasive breast cancer patients with imaging features, pathology and outcomes. | [Saha A et al. Br J Cancer 2018;119:508](https://doi.org/10.1038/s41416-018-0185-8) |
+| [MAMA-MIA](https://www.synapse.org/Synapse:syn60868042/wiki/628716) | Registration | 1,506 breast DCE-MRI cases from four TCIA collections with expert tumour segmentations and harmonised clinical data. | — |
+| [RSNA Screening Mammography](https://registry.opendata.aws/rsna-screening-mammography-breast-cancer-detection/) | Open | Enriched screening mammography set with cancers, biopsy-proven benign findings and negatives, released after the RSNA breast-cancer-detection challenge. | — |
+| [RSNA Intracranial Hemorrhage Detection](https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection) | Registration | ~874,000 head CT slices from 25,000 exams annotated by neuroradiologists for five haemorrhage subtypes. | [Flanders AE et al. Radiol Artif Intell 2020;2:e190211](https://doi.org/10.1148/ryai.2020190211) |
+| [RSNA Knee Abnormality Detection](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection) | Registration | Knee MRI studies labelled for twelve abnormal findings from the RSNA challenge. | — |
+| [RICORD](https://www.rsna.org/covid-19/covid-19-ricord) | Open | Expert-annotated chest CT (240 studies) and chest radiographs (1,000) of COVID-19 from multiple institutions. | [Tsai EB et al. Radiology 2021;299:E204](https://doi.org/10.1148/radiol.2021203957) |
+| [CT-ICH](https://physionet.org/content/ct-ich/) | Registration | 82 head CT scans of traumatic brain injury patients with intracranial haemorrhage segmentations. | [Hssayeni MD et al. Data 2020;5:14](https://doi.org/10.3390/data5010014) |
+| [SinoCT](https://stanfordaimi.azurewebsites.net/datasets/3de8cef8-0626-4c5d-ac47-ed0fed22ac99) | Registration | 9,000+ non-contrast head CT scans labelled normal or abnormal (~1.3 TB) from Chinese hospitals. | — |
+| [NIH DeepLesion](https://nihcc.app.box.com/v/DeepLesion) | Open | 32,000+ annotated lesions on 10,594 CT studies of 4,427 patients, mined from radiologist bookmarks at the NIH Clinical Center. | [Yan K et al. J Med Imaging 2018;5:036501](https://doi.org/10.1117/1.JMI.5.3.036501) |
+| [AbdomenAtlas](https://github.com/MrGiovanni/AbdomenAtlas) | Open | Large-scale multi-organ annotations on thousands of abdominal CT volumes (AbdomenAtlas-8K and later releases) produced with AI-assisted expert review. | [Qu C et al. NeurIPS 2023 Datasets & Benchmarks](https://arxiv.org/abs/2305.09666) |
+| [MICCAI FLARE Pan-cancer CT](https://huggingface.co/datasets/FLARE-MedFM/PancancerCTSeg) | Registration | 17,000+ CT scans with pan-cancer lesion labels from the FLARE challenge for foundation-model segmentation. | — |
+| [ReXGroundingCT](https://huggingface.co/datasets/rajpurkarlab/ReXGroundingCT) | Registration | Chest CT volumes with free-text findings linked to pixel-level 3D segmentations for grounded report generation. | — |
+| [RAD-ChestCT](https://zenodo.org/records/6406114) | Open | Initial public release of 3,630 chest CT volumes from Duke with 83 abnormality labels extracted from reports. | [Draelos RL et al. Med Image Anal 2021;67:101857](https://doi.org/10.1016/j.media.2020.101857) |
+| [MR-RATE](https://huggingface.co/datasets/Forithmus/MR-RATE) | Registration | Brain and spine MRI volumes paired with radiology reports for vision-language modelling. | — |
+| [CirrMRI600+](https://osf.io/cuk24/) | Open | 628 T1- and T2-weighted abdominal MRI scans of cirrhotic livers with expert segmentations. | — |
+| [BRAX](https://physionet.org/content/brax/) | Credentialed | 40,967 chest X-rays from Hospital Israelita Albert Einstein, São Paulo, labelled for 14 findings. | [Reis EP et al. Sci Data 2022;9:487](https://doi.org/10.1038/s41597-022-01608-8) |
+| [PadChest-GR](https://bimcv.cipf.es/bimcv-projects/padchest-gr/) | Application | 4,555 bilingual (Spanish/English) chest X-ray studies with sentence-level findings grounded to bounding boxes. | — |
+| [CheXpert Plus](https://stanfordaimi.azurewebsites.net/datasets/5158c524-d3ab-4e02-96e9-6ee9efc110a1) | Registration | 223,462 chest X-ray–report pairs from Stanford with pathology labels, RadGraph annotations and demographics. | [Chambon P et al. arXiv 2024](https://arxiv.org/abs/2405.19538) |
+| [EchoNet-Pediatric](https://echonet.github.io/pediatric/) | Registration | 7,643 paediatric echocardiogram videos with LV tracings and ejection fraction from Lucile Packard Children's Hospital. | [Reddy CD et al. J Am Soc Echocardiogr 2023;36:482](https://doi.org/10.1016/j.echo.2023.01.015) |
+| [EchoNet-LVH](https://echonet.github.io/lvh/) | Registration | 12,000 parasternal long-axis echo videos with wall-thickness measurements for detecting LV hypertrophy and its causes. | [Duffy G et al. JAMA Cardiol 2022;7:386](https://doi.org/10.1001/jamacardio.2021.6059) |
+| [M&Ms Cardiac Segmentation](https://www.ub.edu/mnms/) | Registration | 375 cine cardiac MRI studies from four scanner vendors and six centres with ventricular segmentations, for domain-generalisation research. | [Campello VM et al. IEEE Trans Med Imaging 2021;40:3543](https://doi.org/10.1109/TMI.2021.3090082) |
+| [OpenPOCUS Lung Ultrasound](https://github.com/kumarandre/OpenPOCUS) | Open | Point-of-care lung ultrasound clips (300,000+ frames) from 226 emergency department patients with labels. | — |
+| [MedShapeNet](https://medshapenet.ikim.nrw/) | Open | 100,000+ 3D medical shapes (organs, bones, vessels, instruments) extracted from public segmentation datasets. | [Li J et al. arXiv 2023](https://arxiv.org/abs/2308.16139) |
+| [MedPix 2.0](https://github.com/CHILab1/MedPix-2.0) | Open | Structured version of NLM MedPix CT and MRI cases with clinical notes, built for multimodal model training. | — |
+| [Nightingale Open Science](https://docs.nightingalescience.org/) | Application | Non-profit platform of curated, outcome-linked medical datasets (ECG waveforms, biopsy slides, chest X-rays) from health systems worldwide. | — |
 
 ## Pathology, Dermatology & Ophthalmology
 
@@ -150,6 +191,29 @@ Whole-slide histopathology, dermoscopic and clinical skin images, retinal fundus
 | [Messidor-2](https://www.adcis.net/en/third-party/messidor2/) | Registration | 1,748 macula-centred fundus images from 874 diabetic examinations, widely used to validate DR screening algorithms. | [Decencière E et al. Image Anal Stereol 2014;33:231](https://doi.org/10.5566/ias.1155) |
 | [DRIVE](https://drive.grand-challenge.org/) | Registration | 40 colour fundus images with manual retinal-vessel segmentations — the classic vessel-segmentation benchmark. | [Staal J et al. IEEE Trans Med Imaging 2004;23:501](https://doi.org/10.1109/TMI.2004.825627) |
 | [REFUGE](https://refuge.grand-challenge.org/) | Registration | 1,200 fundus images with glaucoma labels and optic disc/cup segmentations from Chinese hospitals. | [Orlando JI et al. Med Image Anal 2020;59:101570](https://doi.org/10.1016/j.media.2019.101570) |
+| [NCT-CRC-HE-100K](https://zenodo.org/records/1214456) | Open | 100,000 H&E image patches of human colorectal cancer and normal tissue in nine tissue classes. | [Kather JN et al. PLoS Med 2019;16:e1002730](https://doi.org/10.1371/journal.pmed.1002730) |
+| [STARC-9](https://huggingface.co/datasets/Path2AI/STARC-9) | Open | 630,000 colorectal tissue image tiles across nine tissue classes for training pathology classifiers. | — |
+| [PanNuke](https://warwick.ac.uk/fac/cross_fac/tia/data/pannuke) | Open | Nuclei instance segmentation and classification (~200,000 nuclei) across 19 tissue types. | [Gamper J et al. arXiv 2020](https://arxiv.org/abs/2003.10778) |
+| [NuCLS](https://sites.google.com/view/nucls) | Open | 220,000+ crowdsourced and expert-reviewed nucleus labels from TCGA breast cancer slides. | [Amgad M et al. GigaScience 2022;11:giac037](https://doi.org/10.1093/gigascience/giac037) |
+| [DiagSet](https://github.com/michalkoziarski/DiagSet) | Open | Prostate cancer histopathology: 2.6 million patches and 4,675 whole-slide scans with diagnoses. | [Koziarski M et al. Sci Rep 2024;14:6780](https://doi.org/10.1038/s41598-024-52183-4) |
+| [PLISM](https://plus.figshare.com/collections/Pathology_Images_of_Scanners_and_Mobilephones_PLISM_Dataset/6773925) | Open | Pathology images of the same tissues captured with different whole-slide scanners and smartphones, for studying domain shift. | — |
+| [3D Pathology Triage Datasets](https://zenodo.org/records/20052262) | Open | 3D pathology image volumes of prostate and oesophageal tissue with binary labels for deep-learning triage of 3D microscopy. | — |
+| [NLM Malaria Cell Images](https://lhncbc.nlm.nih.gov/LHC-research/LHC-projects/image-processing/malaria-datasheet.html) | Open | 27,558 segmented thin blood-smear red-cell images, evenly split between Plasmodium-parasitised and uninfected. | [Rajaraman S et al. PeerJ 2018;6:e4568](https://doi.org/10.7717/peerj.4568) |
+| [PH²](https://www.fc.up.pt/addi/ph2%20database.html) | Registration | 200 dermoscopic images of melanocytic lesions with expert segmentations and diagnoses from Hospital Pedro Hispano, Portugal. | [Mendonça T et al. IEEE EMBC 2013](https://doi.org/10.1109/EMBC.2013.6610779) |
+| [MED-NODE](https://www.cs.rug.nl/~imaging/databases/melanoma_naevi/) | Open | 170 non-dermoscopic clinical images of melanoma and naevi from the University Medical Center Groningen. | [Giotis I et al. Expert Syst Appl 2015;42:6578](https://doi.org/10.1016/j.eswa.2015.04.034) |
+| [Derm7pt (Seven-Point Checklist)](http://derm.cs.sfu.ca/) | Registration | 1,011 cases with clinical and dermoscopic images annotated with the seven-point melanoma checklist and diagnoses. | [Kawahara J et al. IEEE J Biomed Health Inform 2019;23:538](https://doi.org/10.1109/JBHI.2018.2824327) |
+| [Dermatology DDx (Uncertain Ground Truth)](https://github.com/google-deepmind/uncertain_ground_truth) | Open | 1,947 teledermatology cases with differential diagnoses from multiple dermatologists across 419 conditions, for studying label uncertainty. | — |
+| [SNU Dermatology Dataset](https://figshare.com/articles/dataset/SNU_SNU_MELANOMA_and_Reddit_dataset_Quiz/6454973) | Open | 2,201 clinical skin images across 174 diseases with quizzes, released with the Seoul National University dermatology AI studies. | — |
+| [ENCoDE Skin Colour Dataset](https://physionet.org/content/encode-skin-color/) | Credentialed | Objective skin-tone measurements linked to EHR data (167 variables) to study pulse-oximetry and other device bias. | — |
+| [BRSET](https://physionet.org/content/brazilian-ophthalmological/) | Credentialed | 16,266 retinal fundus photographs from 8,524 Brazilian patients with demographics and multi-label diagnoses. | [Nakayama LF et al. PLOS Digit Health 2024;3:e0000454](https://doi.org/10.1371/journal.pdig.0000454) |
+| [mBRSET](https://physionet.org/content/mbrset/) | Credentialed | 5,164 smartphone retinal images from 1,291 diabetic patients in Brazil with DR grades and systemic data. | — |
+| [Hillel Yaffe Glaucoma Dataset (HYGD)](https://physionet.org/content/hillel-yaffe-glaucoma-dataset/) | Open | 747 fundus images with gold-standard glaucoma labels based on full ophthalmic examination. | — |
+| [FFA-IR](https://physionet.org/content/ffa-ir-medical-report/) | Credentialed | 47,247 fundus fluorescein angiography images from 10,790 reports with lesion annotations, for explainable report generation. | — |
+| [HRF](https://www5.cs.fau.de/research/data/fundus-images/) | Open | 45 high-resolution fundus images (healthy, diabetic retinopathy, glaucoma) with vessel segmentations. | [Budai A et al. Int J Biomed Imaging 2013:154860](https://doi.org/10.1155/2013/154860) |
+| [RIGA](https://deepblue.lib.umich.edu/data/concern/data_sets/3b591905z) | Open | 750 fundus images with optic disc and cup boundaries marked by six ophthalmologists (4,500 annotations) for glaucoma research. | [Almazroa A et al. Proc SPIE 2018;10579](https://doi.org/10.1117/12.2293584) |
+| [DR HAGIS](https://personalpages.manchester.ac.uk/staff/niall.p.mcloughlin/) | Open | 39 fundus images from a UK diabetic screening programme with manual vessel segmentations, covering comorbidities. | [Holm S et al. J Med Imaging 2017;4:014503](https://doi.org/10.1117/1.JMI.4.1.014503) |
+| [SUSTech-SYSU Corneal Ulcer Dataset](https://figshare.com/articles/dataset/Metadata_record_for_The_SUSTech-SYSU_dataset_for_automatically_segmenting_and_classifying_corneal_ulcers/11371803/2) | Open | 712 fluorescein-stained ocular surface images with corneal ulcer segmentations and type/grade labels. | [Deng L et al. Sci Data 2020;7:23](https://doi.org/10.1038/s41597-020-0360-7) |
+| [RIM-ONE DL](https://github.com/miag-ull/rim-one-dl) | Open | Fundus images with optic disc and cup segmentations, curated for deep-learning glaucoma assessment. | — |
 
 ## Neuroimaging & Neuroscience
 
@@ -170,6 +234,12 @@ Brain MRI, fMRI, PET and EEG collections for ageing, dementia, development and p
 | [CHB-MIT Scalp EEG Database](https://physionet.org/content/chbmit/) | Open | Long-term scalp EEG of 22 paediatric subjects with intractable seizures at Boston Children's Hospital, with annotated seizure onsets. | — |
 | [Siena Scalp EEG Database](https://physionet.org/content/siena-scalp-eeg/) | Open | EEG recordings of 14 adult epilepsy patients from the University of Siena with seizure annotations by neurologists. | [Detti P et al. Processes 2020;8:846](https://doi.org/10.3390/pr8070846) |
 | [EEG Motor Movement/Imagery Dataset](https://physionet.org/content/eegmmidb/) | Open | 1,500+ 64-channel EEG recordings from 109 volunteers performing real and imagined motor tasks; widely used for brain–computer interface research. | [Schalk G et al. IEEE Trans Biomed Eng 2004;51:1034](https://doi.org/10.1109/TBME.2004.827072) |
+| [NeuroDataSets (R package)](https://lightbluetitan.github.io/neurodatasets/) | Open | R package bundling a diverse collection of ready-to-use datasets on the brain, nervous system and neurological and psychiatric disorders, each documented with its original source and licence. | — |
+| [UPENN-GBM](https://www.cancerimagingarchive.net/collection/upenn-gbm/) | Open | Multiparametric MRI of 630 glioblastoma patients with tumour segmentations, radiomic features, genomics and survival. | [Bakas S et al. Sci Data 2022;9:453](https://doi.org/10.1038/s41597-022-01560-7) |
+| [BraTS-Africa](https://www.cancerimagingarchive.net/collection/brats-africa/) | Open | Pre-operative brain MRI with glioma segmentations for 146 patients from Nigeria, addressing under-representation of African populations. | [Adewole M et al. arXiv 2023](https://arxiv.org/abs/2305.19369) |
+| [ATLAS v2.0](https://www.icpsr.umich.edu/web/ADDEP/studies/36684) | Registration | 955 T1-weighted MRIs of stroke patients with manually segmented lesions from 33 cohorts worldwide. | [Liew SL et al. Sci Data 2022;9:320](https://doi.org/10.1038/s41597-022-01401-7) |
+| [NYUMets: Brain](https://nyumets.org/) | Application | Longitudinal MRI, segmentations, treatment (gamma knife) and outcome data of patients with brain metastases from NYU Langone. | — |
+| [EEGEyeNet](https://osf.io/ktv7m/) | Open | Simultaneous high-density EEG and eye-tracking recordings from 356 participants (47+ hours) for gaze estimation benchmarks. | [Kastrati A et al. NeurIPS 2021 Datasets & Benchmarks](https://arxiv.org/abs/2111.05100) |
 
 ## Physiological Signals & Wearables
 
@@ -200,6 +270,16 @@ ECG, PPG, EEG/sleep, heart and lung sounds, bedside waveforms and consumer-weara
 | [PPG-DaLiA](https://archive.ics.uci.edu/dataset/495/ppg+dalia) | Open | Wrist PPG, accelerometer and chest ECG from 15 subjects during daily-life activities for motion-robust heart-rate estimation. | [Reiss A et al. Sensors 2019;19:3079](https://doi.org/10.3390/s19143079) |
 | [LifeSnaps](https://zenodo.org/records/7229547) | Open | Four months of Fitbit data (steps, sleep, heart rate, SpO2, temperature) plus surveys and ecological momentary assessments from 71 participants in the wild. | [Yfantidou S et al. Sci Data 2022;9:663](https://doi.org/10.1038/s41597-022-01764-x) |
 | [UCI Human Activity Recognition (Smartphones)](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones) | Open | Smartphone accelerometer and gyroscope signals from 30 volunteers performing six daily activities — a classic activity-recognition dataset. | — |
+| [MIMIC-III-Ext-PPG](https://physionet.org/content/mimic-iii-ext-ppg/) | Credentialed | 4.9 million 30-second PPG segments from MIMIC-III ICU patients with rhythm labels, for PPG-based arrhythmia research. | — |
+| [EchoNext](https://physionet.org/content/echonext/) | Registration | 100,000 12-lead ECGs from Columbia University Irving Medical Center paired with echocardiography-derived structural heart disease labels. | [Poterucha TJ et al. Nature 2025](https://doi.org/10.1038/s41586-025-09227-0) |
+| [Bridge2AI-Voice](https://physionet.org/content/b2ai-voice/) | Credentialed | Voice and speech recordings with clinical data from participants with voice, neurological, respiratory and mood disorders (NIH Bridge2AI). | — |
+| [COVID-19 Sounds](https://www.covid-19-sounds.org/en/blog/neurips_dataset.html) | Application | 53,449 breathing, cough and voice recordings from 36,116 participants with COVID-19 test status and symptoms. | [Xia T et al. NeurIPS 2021 Datasets & Benchmarks](https://openreview.net/forum?id=9KArJb4r5ZQ) |
+| [PADS (Parkinson's Disease Smartwatch)](https://physionet.org/content/parkinsons-disease-smartwatch/) | Open | Smartwatch accelerometer and gyroscope recordings from 469 participants (Parkinson's, differential diagnoses, healthy) during structured assessments. | — |
+| [Parkinson's Kaggle Challenges (AMP-PD & Freezing of Gait)](https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction) | Registration | AMP-PD: longitudinal CSF protein/peptide data for progression prediction; FoG: lower-back accelerometry from lab, home and daily-living settings for freezing-of-gait detection. | — |
+| [Google Heart Rate Measurement (rPPG) Study Dataset](https://github.com/Google-Health/consumer-health-research/tree/main/rppg) | Open | Facial videos with skin-tone measurements and reference heart rate for evaluating camera-based (remote PPG) heart-rate measurement across skin tones. | — |
+| [Propofol Anesthesia Dynamics](https://physionet.org/content/propofol-anesthesia-dynamics/) | Open | ECG and autonomic recordings from nine volunteers during propofol-induced loss and recovery of consciousness. | — |
+| [DCSM Sleep Staging Dataset](https://erda.ku.dk/public/archives/db553715ecbe1f3ac66c1dc569826eef/published-archive.html) | Open | 255 anonymised overnight polysomnography recordings from the Danish Center for Sleep Medicine with expert sleep stages. | — |
+| [Dreem Open Datasets (DOD-H & DOD-O)](https://github.com/Dreem-Organization/dreem-learning-open) | Open | Polysomnography from 25 healthy adults and 55 obstructive sleep apnoea patients, each scored by five sleep technologists. | [Guillot A et al. IEEE Trans Neural Syst Rehabil Eng 2020;28:1955](https://doi.org/10.1109/TNSRE.2020.3011181) |
 
 ## Genomics & Multi-Omics
 
@@ -237,6 +317,9 @@ Germline and cancer genomics, transcriptomics, proteomics, metabolomics, single-
 | [GDSC](https://www.cancerrxgene.org/) | Open | Drug-response data for ~1,000 cancer cell lines against hundreds of anticancer compounds, with genomic markers of sensitivity. | [Yang W et al. Nucleic Acids Res 2013;41:D955](https://doi.org/10.1093/nar/gks1111) |
 | [Open Targets Platform](https://platform.opentargets.org/) | Open | Integrates genetics, omics, literature and drug data to score and prioritise target–disease associations for drug discovery. | [Ochoa D et al. Nucleic Acids Res 2023;51:D1353](https://doi.org/10.1093/nar/gkac1046) |
 | [ImmPort](https://www.immport.org/) | Registration | Repository of immunology study data (clinical trials and mechanistic studies) from NIAID-funded research, curated into a standard model. | [Bhattacharya S et al. Sci Data 2018;5:180015](https://doi.org/10.1038/sdata.2018.15) |
+| [DECIPHER](https://www.deciphergenomics.org/) | Registration | Database of genomic variants and phenotypes from ~50,000 consented patients with rare developmental disorders, used for variant interpretation. | [Firth HV et al. Am J Hum Genet 2009;84:524](https://doi.org/10.1016/j.ajhg.2009.03.010) |
+| [PGC Psychiatric GWAS Summary Statistics](https://pgc.unc.edu/for-researchers/download-results/) | Open | Genome-wide association summary statistics for schizophrenia, bipolar disorder, depression, ADHD, autism and other psychiatric disorders. | — |
+| [Tahoe-100M](https://huggingface.co/datasets/tahoebio/Tahoe-100M) | Open | 100 million single-cell transcriptomic profiles of cancer cell lines under ~1,100 drug perturbations — the largest single-cell perturbation atlas. | — |
 
 ## Clinical Trials & Individual Participant Data
 
@@ -293,6 +376,9 @@ Adverse-event reports, drug labels, drug–target and side-effect knowledge base
 | [DailyMed](https://dailymed.nlm.nih.gov/) | Open | Official FDA-approved structured product labels (package inserts) for prescription and OTC drugs, downloadable in SPL XML. | — |
 | [RxNorm](https://www.nlm.nih.gov/research/umls/rxnorm/) | Registration | Normalised names and identifiers for clinical drugs linking many drug vocabularies, with the free RxNav APIs. | [Nelson SJ et al. JAMIA 2011;18:441](https://doi.org/10.1136/amiajnl-2011-000116) |
 | [WHO ATC/DDD Index](https://atcddd.fhi.no/atc_ddd_index/) | Open | The Anatomical Therapeutic Chemical classification and Defined Daily Doses used worldwide for drug-utilisation research. | — |
+| [Therapeutics Data Commons (TDC)](https://tdcommons.ai/) | Open | 66 AI-ready datasets and benchmarks spanning target discovery, ADMET, drug–drug interactions, clinical trial outcomes and more. | [Huang K et al. NeurIPS 2021 Datasets & Benchmarks](https://arxiv.org/abs/2102.09548) |
+| [DILIrank](https://www.fda.gov/science-research/liver-toxicity-knowledge-base-ltkb/drug-induced-liver-injury-rank-dilirank-dataset) | Open | 1,036 FDA-approved drugs ranked by risk of drug-induced liver injury from labelling and literature. | [Chen M et al. Drug Discov Today 2016;21:648](https://doi.org/10.1016/j.drudis.2016.02.015) |
+| [UniTox](https://zenodo.org/records/11627822) | Open | LLM-extracted, clinician-checked toxicity summaries and ratings across eight organ systems for 2,418 FDA-approved drugs. | — |
 
 ## Infectious Diseases & Antimicrobial Resistance
 
@@ -316,6 +402,8 @@ Pathogen genomes, surveillance line lists, AMR, tuberculosis, malaria, influenza
 | [JHU CSSE COVID-19 Data (archived)](https://github.com/CSSEGISandData/COVID-19) | Open | The iconic global daily COVID-19 case and death time series (Jan 2020–Mar 2023) that powered the Johns Hopkins dashboard. | [Dong E et al. Lancet Infect Dis 2020;20:533](https://doi.org/10.1016/S1473-3099(20)30120-1) |
 | [ECDC Surveillance Atlas of Infectious Diseases](https://atlas.ecdc.europa.eu/) | Open | Interactive EU/EEA surveillance data for ~50 communicable diseases including AMR (EARS-Net), with downloadable tables. | — |
 | [Global.health](https://global.health/) | Open | Open, de-identified line-list case data for outbreaks (COVID-19, mpox, Marburg, H5N1) curated from public sources. | — |
+| [FluSense](https://github.com/Forsad/FluSense-data) | Open | 350,000+ waiting-room thermal images and 21 million audio samples (coughs, speech) from a university clinic for influenza-like-illness surveillance. | [Al Hossain F et al. Proc ACM IMWUT 2020;4:1](https://doi.org/10.1145/3381014) |
+| [Protective Policy Index (PPI)](https://github.com/COVID-policy-response-lab/PPI-data) | Open | Daily index of COVID-19 protective policy stringency for US states and other jurisdictions during 2020. | — |
 
 ## Data Repositories & Portals
 
@@ -333,3 +421,94 @@ General platforms that host or index many health datasets — good places to kee
 | [Health Data Research Gateway](https://healthdatagateway.org/) | Application | Searchable catalogue of UK health datasets (NHS, cohorts, biobanks, trials) with standardised metadata and a common data-access request workflow. | — |
 | [Registry of Open Data on AWS (life sciences)](https://registry.opendata.aws/?search=tags:life%20sciences) | Open | Cloud-hosted public datasets you can analyse in place — e.g. gnomAD, 1000 Genomes, TCGA open tier, CAMELYON, EMBED, NIH CXR. | — |
 | [Zenodo](https://zenodo.org/) | Open | CERN-run general-purpose open repository where many medical datasets (TotalSegmentator, CODE-15%, COUGHVID…) are deposited with DOIs. | — |
+| [meddatasets (Python package)](https://pypi.org/project/meddatasets/) | Open | Python package bundling curated medical and public-health datasets (cancer, chronic disease, hospital management, COVID-19, environmental health) for teaching and analysis. | — |
+| [Hugging Face Datasets](https://huggingface.co/datasets?search=medical) | Registration | The largest hub for ML datasets, including thousands of medical text, imaging and benchmark datasets with one-line loaders. | — |
+| [Harvard Dataverse](https://dataverse.harvard.edu/) | Open | Open research data repository with thousands of medicine, health and life-science datasets deposited with DOIs. | — |
+| [Mendeley Data](https://data.mendeley.com/) | Open | Generalist repository hosting many published clinical and biomedical datasets (e.g. Kermany OCT, PAD-UFES-20). | — |
+| [Google Dataset Search](https://datasetsearch.research.google.com/) | Open | Search engine indexing dataset descriptions across thousands of repositories — useful for finding datasets not listed here. | — |
+
+## Medical AI, LLM & Multimodal Benchmarks
+
+Datasets built to train or evaluate medical AI: clinical QA and reasoning, report generation, error detection, safety and bias tests, and image–text corpora.
+
+| Database | Access | Description | Article |
+|---|---|---|---|
+| [HealthBench Professional](https://huggingface.co/datasets/openai/healthbench-professional) | Open | 525 physician-authored clinician tasks with rubrics for evaluating how well LLMs support professional clinical work. | — |
+| [MedVAL-Bench](https://huggingface.co/datasets/stanfordmimi/MedVAL-Bench) | Open | 840 AI-generated medical texts (reports, summaries, notes) graded by physicians for factual errors and patient-safety risk. | — |
+| [VITA HealthBench datasets](https://figshare.com/articles/dataset/VITA_Benchmarking_Questions_and_Output_Dataset/33224340) | Open | Questions, model responses and rubric scores used to benchmark health AI systems: 500 questions across five systems plus 4,023 English-language questions. | — |
+| [MedAgentBench](https://github.com/stanfordmlgroup/MedAgentBench) | Open | 300 physician-written clinical tasks in a simulated FHIR-based EHR environment for benchmarking LLM agents that act on patient records. | [Jiang Y et al. arXiv 2025](https://arxiv.org/abs/2501.14654) |
+| [MedAlign](https://github.com/som-shahlab/medalign/) | Application | 983 clinician-written instructions over 276 longitudinal EHRs with 303 reference responses, for evaluating LLMs on real EHR tasks. | [Fleming SL et al. AAAI 2024](https://arxiv.org/abs/2308.14089) |
+| [EHRSHOT](https://som-shahlab.github.io/ehrshot-website/) | Application | Longitudinal structured EHR data for 6,739 Stanford patients with 15 few-shot prediction tasks, released with a pretrained foundation model. | [Wornow M et al. NeurIPS 2023 Datasets & Benchmarks](https://arxiv.org/abs/2307.02028) |
+| [MIMIC-IV-Ext-MedicalBench](https://physionet.org/content/mimic-iv-ext-medicalbench/) | Credentialed | 405 MIMIC-IV-derived examples for benchmarking extraction of ICD-10 diagnosis concepts from clinical text. | — |
+| [ArchEHR-QA](https://physionet.org/content/archehr-qa-bionlp-task-2025/) | Credentialed | Patient questions paired with clinician-rewritten questions and grounding EHR note excerpts, from the BioNLP 2025 shared task on answering patient questions from records. | — |
+| [VeriFact-BHC](https://physionet.org/content/mimic-iii-ext-verifact-bhc/) | Credentialed | 13,070 propositions from human- and LLM-written brief hospital courses (MIMIC-III) annotated for factual support against the EHR. | — |
+| [FactEHR](https://arxiv.org/abs/2412.12422) | Credentialed | 2,168 clinical notes from four types with LLM fact decompositions and entailment labels for evaluating factuality in clinical text. | [Munnangi M et al. arXiv 2024](https://arxiv.org/abs/2412.12422) |
+| [MEDEC](https://github.com/abachaa/MEDEC) | Open | 3,848 clinical texts with injected or real medical errors for benchmarking error detection and correction by LLMs (MEDIQA-CORR 2024). | [Ben Abacha A et al. arXiv 2024](https://arxiv.org/abs/2412.19260) |
+| [ACI-Bench](https://github.com/wyim/aci-bench) | Open | Ambient Clinical Intelligence benchmark: 207 doctor–patient conversation transcripts paired with visit notes for note-generation research. | [Yim W et al. Sci Data 2023;10:586](https://doi.org/10.1038/s41597-023-02487-3) |
+| [MTS-Dialog](https://github.com/abachaa/MTS-Dialog) | Open | 1,700 short doctor–patient conversations with corresponding summaries (clinical note sections) for dialogue summarisation. | [Ben Abacha A et al. EACL 2023](https://doi.org/10.18653/v1/2023.eacl-main.168) |
+| [PriMock57](https://github.com/babylonhealth/primock57) | Open | 57 mock primary-care consultations with audio, transcripts and clinician-written notes for speech recognition and note generation. | [Korfiatis AP et al. ACL 2022](https://doi.org/10.18653/v1/2022.acl-short.65) |
+| [PMC-Patients](https://figshare.com/collections/PMC-Patients/6723465) | Open | ~167,000 patient summaries extracted from PubMed Central case reports with patient–article and patient–patient relevance labels for retrieval tasks. | [Zhao Z et al. Sci Data 2023;10:909](https://doi.org/10.1038/s41597-023-02814-8) |
+| [MultiCaRe](https://zenodo.org/records/10079370) | Open | Multimodal case-report dataset from PubMed Central: 75,382 articles, 96,428 cases and 135,596 images with captions and labels. | — |
+| [NHS England Synthetic Clinical Notes](https://huggingface.co/datasets/NHSEDataScience/synthetic_clinical_notes) | Open | Synthetic clinical notes for 70 fictional patients, released by NHS England for safe NLP development. | — |
+| [EkaCare Medical Public Datasets](https://huggingface.co/collections/ekacare/ekacare-medical-public-datasets) | Open | Collection of Indian clinical datasets for medical speech recognition, health-record parsing and clinical note generation. | — |
+| [Cardiac Investigations Text (AMIE)](https://redivis.com/datasets/1z3x-2354972da) | Application | Cardiology test reports (ECG, echo, Holter, CMR, CPET) released with Google's AMIE cardiology study. | — |
+| [PARROT](https://github.com/PARROT-reports/PARROT_v1.0) | Open | 2,658 fictional radiology reports written by radiologists in 14 languages, for multilingual radiology NLP. | — |
+| [RadGraph & RadGraph2](https://physionet.org/content/radgraph/) | Credentialed | Radiologist-annotated entities and relations in chest X-ray reports (RadGraph: 500 reports; RadGraph2 adds change-over-time relations), plus large auto-annotated sets. | [Jain S et al. NeurIPS 2021 Datasets & Benchmarks](https://arxiv.org/abs/2106.14463) |
+| [RadEvalX](https://physionet.org/content/rad-eval-x/) | Open | Radiologist annotations of clinically significant errors in 100 AI-generated chest X-ray reports. | — |
+| [ReXErr-v1](https://physionet.org/content/rexerr-v1/) | Open | Clinically meaningful synthetic errors injected into MIMIC-CXR reports for training and evaluating report-error detection. | — |
+| [Chest ImaGenome](https://physionet.org/content/chest-imagenome/) | Credentialed | Scene graphs linking anatomy, findings and comparisons for MIMIC-CXR images, with a 500-patient gold standard. | — |
+| [REFLACX](https://physionet.org/content/reflacx-xray-localization/) | Registration | Eye-tracking data, dictated reports and abnormality ellipses from radiologists reading 3,032 MIMIC-CXR chest X-rays. | [Bigolin Lanfredi R et al. Sci Data 2022;9:350](https://doi.org/10.1038/s41597-022-01441-z) |
+| [Eye Gaze Data for Chest X-rays (EGD-CXR)](https://physionet.org/content/egd-cxr/) | Credentialed | Eye-tracking and report dictation from a radiologist reading 1,083 MIMIC-CXR images. | [Karargyris A et al. Sci Data 2021;8:92](https://doi.org/10.1038/s41597-021-00863-5) |
+| [CheXthought](https://stanford.redivis.com/datasets/ds7j-75krm2btv) | Application | Radiologist think-aloud reasoning traces and eye-tracking recorded while interpreting chest X-rays. | — |
+| [Collab-CXR](https://osf.io/z7apq/) | Open | Experimental data from 227 radiologists reading chest X-rays with and without AI assistance, for studying human–AI collaboration. | — |
+| [LLaVA-Rad training data](https://github.com/microsoft/LLaVA-Rad) | Credentialed | 697,000 radiology image–text pairs (400,042 chest X-ray pairs) assembled from public sources to train a small multimodal radiology model. | [Zambrano Chaves JM et al. arXiv 2024](https://arxiv.org/abs/2403.08002) |
+| [VQA-RAD](https://osf.io/89kps/) | Open | 3,515 clinician-generated question–answer pairs about 315 radiology images, the first manually built medical VQA set. | [Lau JJ et al. Sci Data 2018;5:180251](https://doi.org/10.1038/sdata.2018.251) |
+| [OpenMedReason](https://huggingface.co/datasets/neginb/OpenMedReason) | Open | Medical visual question answering with image-grounded reasoning traces and a rubric-scored test split. | — |
+| [WoundcareVQA](https://osf.io/xsj5u/) | Open | Multilingual wound-care visual question answering: 477 patient cases with images, queries and expert responses (MEDIQA-WV). | — |
+| [SynthVision](https://github.com/openmed-labs/synthvision) | Open | 119,000 synthetic medical images with VQA annotations for training multimodal models without patient data. | — |
+| [BIOMEDICA](https://huggingface.co/BIOMEDICA) | Open | 24 million image–caption pairs from 6 million PubMed Central open-access articles for training biomedical vision-language models. | [Lozano A et al. arXiv 2025](https://arxiv.org/abs/2501.07171) |
+| [BiomedParseData](https://huggingface.co/datasets/microsoft/BiomedParseData) | Registration | 3.4 million image–mask–label triples across nine imaging modalities used to train the BiomedParse segmentation foundation model. | [Zhao T et al. Nat Methods 2025;22:166](https://doi.org/10.1038/s41592-024-02499-w) |
+| [OpenPath (PLIP)](https://huggingface.co/spaces/vinid/webplip) | Registration | 208,414 pathology images paired with natural-language descriptions curated from medical Twitter, used to train the PLIP model. | [Huang Z et al. Nat Med 2023;29:2307](https://doi.org/10.1038/s41591-023-02504-3) |
+| [ECG-Grounding](https://huggingface.co/datasets/LANSG/ECG-Grounding) | Open | 30,000 ECG instruction pairs with grounded, heartbeat-level interpretations for training explainable ECG language models. | — |
+| [OpenBiomedVid](https://github.com/zou-group/OpenBiomedVid) | Open | 1,031 hours of biomedical video–text instruction data mined from educational videos, with SurgeryVideoQA and MIMICEchoQA benchmarks. | — |
+| [MedVidBench](https://huggingface.co/datasets/UII-AI/MedVidBench) | Open | 6,245 test samples benchmarking video-language models on surgical and medical video understanding. | — |
+| [MedConceptsQA](https://huggingface.co/datasets/ofir408/MedConceptsQA) | Open | Open benchmark of questions on medical concepts (ICD-9/10, ATC and procedure codes) at three difficulty levels. | [Shoham OB, Rappoport N. arXiv 2024](https://arxiv.org/abs/2405.07348) |
+| [EquityMedQA](https://huggingface.co/datasets/katielink/EquityMedQA) | Open | Seven adversarial question sets for surfacing health-equity-related biases and harms in medical LLM answers. | [Pfohl SR et al. Nat Med 2024;30:3590](https://doi.org/10.1038/s41591-024-03258-2) |
+| [Med-HALT](https://huggingface.co/datasets/MedHALT/Med-HALT) | Open | Benchmark of reasoning and memory tests built from multinational medical exams for measuring hallucinations in LLMs. | [Pal A et al. CoNLL 2023](https://doi.org/10.18653/v1/2023.conll-1.21) |
+| [Red Teaming LLMs in Medicine](https://daneshjoulab.github.io/Red-Teaming-Dataset/) | Open | 382 clinician-crafted adversarial prompts with 1,146 ChatGPT responses labelled for safety, privacy, hallucination and bias. | — |
+| [Q-Pain](https://physionet.org/content/q-pain/) | Open | Clinical vignettes on pain management designed to measure social bias (race, gender) in medical QA systems. | — |
+| [CORAL](https://physionet.org/content/curated-oncology-reports/) | Credentialed | Expert-annotated oncology progress notes (breast and pancreatic cancer) for evaluating LLM information extraction. | [Sushil M et al. NEJM AI 2024](https://doi.org/10.1056/AIdbp2300110) |
+| [MeQSum](https://github.com/abachaa/MeQSum) | Open | 1,000 consumer health questions paired with expert summaries for question summarisation. | [Ben Abacha A, Demner-Fushman D. ACL 2019](https://doi.org/10.18653/v1/P19-1215) |
+| [emrQA](https://github.com/panushri25/emrQA) | Application | ~1 million question–logical form and 400,000 question–answer pairs generated from n2c2 clinical notes for EMR question answering. | [Pampari A et al. EMNLP 2018](https://doi.org/10.18653/v1/D18-1258) |
+| [CodiEsp](https://zenodo.org/records/3837305) | Open | 1,000 Spanish clinical case reports manually coded with ICD-10 diagnoses and procedures (CLEF eHealth 2020). | — |
+| [GPTNERMED](https://huggingface.co/datasets/jfrei/GPTNERMED) | Open | 9,845 synthetic German medical sentences with named-entity annotations generated by GPT (not expert-validated). | [Frei J, Kramer F. J Biomed Inform 2023;144:104478](https://doi.org/10.1016/j.jbi.2023.104478) |
+| [BioRED](https://ftp.ncbi.nlm.nih.gov/pub/lu/BioRED/) | Open | 600 PubMed abstracts annotated for biomedical entities and eight relation types for relation extraction. | [Luo L et al. Brief Bioinform 2022;23:bbac282](https://doi.org/10.1093/bib/bbac282) |
+| [PGxCorpus](https://doi.org/10.6084/m9.figshare.6025748) | Open | 945 sentences from 911 PubMed abstracts manually annotated with pharmacogenomic entities and relations. | [Legrand J et al. Sci Data 2020;7:3](https://doi.org/10.1038/s41597-019-0342-9) |
+| [BigBIO](https://github.com/bigscience-workshop/biomedical) | Open | Community library of 126+ biomedical NLP datasets in a uniform schema with Hugging Face loaders. | [Fries JA et al. NeurIPS 2022 Datasets & Benchmarks](https://arxiv.org/abs/2206.15076) |
+| [BRIDGE-Open](https://huggingface.co/datasets/YLab-Open/BRIDGE-Open) | Registration | Open-access subset of the BRIDGE benchmark: 55 multilingual clinical text tasks from real-world notes for evaluating LLMs. | — |
+| [MedInstruct-52k](https://github.com/XZhang97666/AlpaCare) | Open | 52,000 diverse medical instruction–response pairs generated with GPT-4 for instruction-tuning (AlpaCare). | [Zhang X et al. arXiv 2023](https://arxiv.org/abs/2310.14558) |
+| [UltraMedical](https://github.com/TsinghuaC3I/UltraMedical) | Open | 410,000 biomedical instructions with preference data, used to train the UltraMedical model family. | [Zhang K et al. NeurIPS 2024 Datasets & Benchmarks](https://arxiv.org/abs/2406.03949) |
+| [II-Medical-Reasoning-SFT](https://huggingface.co/datasets/Intelligent-Internet/II-Medical-Reasoning-SFT) | Open | ~2.2 million medical reasoning samples for supervised fine-tuning of reasoning LLMs. | — |
+| [Medical-Reasoning-SFT-GPT-OSS-120B](https://huggingface.co/datasets/OpenMed/Medical-Reasoning-SFT-GPT-OSS-120B) | Open | ~200,000 synthetic medical reasoning conversations generated with GPT-OSS-120B. | — |
+| [Llama2-MedTuned-Instructions](https://huggingface.co/datasets/nlpie/Llama2-MedTuned-Instructions) | Open | ~200,000 biomedical instruction samples (NER, RE, NLI, QA, classification) for instruction-tuning LLMs. | — |
+| [MediFlow](https://huggingface.co/datasets/microsoft/mediflow) | Open | 2.5 million synthetic clinical instruction rows spanning many clinical text tasks and output formats. | — |
+| [HC4](https://huggingface.co/datasets/m42-health/HC4) | Open | Healthcare-focused pretraining corpus of ~65 billion tokens curated from web and literature sources. | — |
+| [NHS-LLM / OpenGPT datasets](https://github.com/CogStack/opengpt) | Open | 24,665 NHS-derived Q&A pairs, 2,354 conversations and 4,688 medical task pairs generated with the OpenGPT framework. | — |
+| [Dialogues of Delivery](https://doi.org/10.7910/DVN/JS3ILT) | Open | Maternal-health questions and answers in four languages for evaluating multilingual health chatbots. | — |
+| [CSIRO Clinical Trials Search Collection](https://data.csiro.au/collection/csiro:17152) | Open | 204,855 clinical trials with relevance judgements for patient-to-trial matching and search evaluation. | — |
+| [TREC Biomedical Tracks](http://www.trec-cds.org/) | Open | Test collections from TREC Clinical Decision Support, Precision Medicine and Clinical Trials tracks (topics, documents, relevance judgements). | — |
+| [CTO (Clinical Trial Outcome) Dataset](https://github.com/chufangao/CTOD) | Open | ~479,000 clinical trials with automatically derived weak outcome labels for trial-outcome prediction. | — |
+| [FDA AI-CAD Device Database](https://github.com/lotterlab/ai_cad_database) | Open | Curated list of FDA clearances for AI-based image-interpretation (CAD) devices with evidence characteristics. | — |
+
+## Endoscopy & Surgical Video
+
+Gastrointestinal endoscopy, capsule endoscopy and surgical video datasets, including robot demonstrations.
+
+| Database | Access | Description | Article |
+|---|---|---|---|
+| [Kvasir family (Kvasir v2, Kvasir-SEG, Kvasir-Capsule, HyperKvasir)](https://datasets.simula.no/kvasir/) | Open | Gastrointestinal endoscopy image and video collections from Norway: 8,000 labelled images (v2), polyp segmentation masks (SEG), 4.7M video-capsule frames (Capsule) and 110,000+ images (HyperKvasir). | [Pogorelov K et al. ACM MMSys 2017](https://doi.org/10.1145/3083187.3083212) |
+| [Nerthus](https://datasets.simula.no/nerthus/) | Open | 21 colonoscopy videos (5,525 frames) labelled with the Boston Bowel Preparation Scale for bowel-cleansing assessment. | [Pogorelov K et al. ACM MMSys 2017](https://doi.org/10.1145/3083187.3083216) |
+| [SEE-AI Small Bowel Capsule Endoscopy](https://www.kaggle.com/datasets/capsuleyolo/kyucapsule) | Registration | 18,481 small-bowel capsule endoscopy images with bounding-box annotations for lesion detection. | — |
+| [LEMON](https://github.com/visurg-ai/LEMON) | Open | 4,000+ surgical videos (938 hours) across many procedure types for pretraining surgical video foundation models. | — |
+| [SurgLaVi](https://github.com/aperezr20/SurgLaVi) | Open | ~240,000 surgical video clip–caption pairs for surgical vision-language pretraining; the open subset SurgLaVi-β is freely released. | — |
+| [GR00T-H Surgical Robot Data](https://huggingface.co/nvidia/GR00T-H) | Registration | 778 hours of surgical-robot demonstration episodes released with NVIDIA's GR00T-H healthcare robotics model. | — |

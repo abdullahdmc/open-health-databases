@@ -202,6 +202,80 @@
       "url": "https://physionet.org/content/challenge-2019/",
       "paper": {"label": "Reyna MA et al. Crit Care Med 2020;48:210", "url": "https://doi.org/10.1097/CCM.0000000000004145"},
       "tags": ["ICU", "sepsis", "benchmark"]
+    },
+    {
+      "id": "nwicu",
+      "name": "NWICU",
+      "full_name": "Northwestern ICU Database",
+      "description": "Harmonised ICU data for 25,000+ patients at Northwestern Medicine (2020–2022) in a MIMIC-IV-compatible structure, enabling multi-centre validation.",
+      "provider": "Northwestern University",
+      "region": "USA",
+      "access": "credentialed",
+      "access_note": "PhysioNet credentialing + CITI training + DUA.",
+      "url": "https://physionet.org/content/nwicu-northwestern-icu/",
+      "paper": null,
+      "tags": ["EHR", "ICU", "MIMIC-compatible"]
+    },
+    {
+      "id": "zigong-icu-infection",
+      "name": "Zigong ICU Infection Database",
+      "full_name": "Critical care database of patients with infection, Zigong Fourth People's Hospital",
+      "description": "ICU records of patients with infection at Zigong Fourth People's Hospital, China (2019–2020), with vitals, labs, drugs and outcomes.",
+      "provider": "Zigong Fourth People's Hospital",
+      "region": "China",
+      "access": "credentialed",
+      "access_note": "PhysioNet credentialing + DUA.",
+      "url": "https://physionet.org/content/icu-infection-zigong-fourth/",
+      "paper": null,
+      "tags": ["ICU", "infection", "Asia"]
+    },
+    {
+      "id": "mimic-iv-ext-22mcts",
+      "name": "MIMIC-IV-Ext-22MCTS",
+      "description": "22.6 million clinical time-series events derived from MIMIC-IV discharge summaries for temporal reasoning research.",
+      "provider": "PhysioNet",
+      "region": "USA",
+      "access": "credentialed",
+      "access_note": "PhysioNet credentialing + DUA.",
+      "url": "https://physionet.org/content/mimic-iv-ext-22mcts/",
+      "paper": null,
+      "tags": ["time series", "MIMIC", "NLP"]
+    },
+    {
+      "id": "inspect",
+      "name": "INSPECT",
+      "description": "Multimodal pulmonary-embolism dataset of 19,438 patients: CT pulmonary angiograms, radiology impressions and longitudinal structured EHR data with outcome labels.",
+      "provider": "Stanford AIMI",
+      "region": "USA",
+      "access": "registration",
+      "access_note": "Free registration and Stanford research-use agreement.",
+      "url": "https://stanfordaimi.azurewebsites.net/datasets/521d0d11-7c3c-45ef-8b99-a49cd70cba2c",
+      "paper": {"label": "Huang SC et al. NeurIPS 2023 Datasets & Benchmarks", "url": "https://arxiv.org/abs/2311.10798"},
+      "tags": ["CT", "EHR", "pulmonary embolism"]
+    },
+    {
+      "id": "uq-vital-signs",
+      "name": "University of Queensland Vital Signs Dataset",
+      "description": "High-resolution anaesthesia monitoring data (vital signs and waveforms) from 32 surgical cases at the Royal Adelaide Hospital.",
+      "provider": "University of Queensland",
+      "region": "Australia",
+      "access": "open",
+      "access_note": "Direct download.",
+      "url": "https://outbox.eait.uq.edu.au/uqdliu3/uqvitalsignsdataset/index.html",
+      "paper": {"label": "Liu D et al. Anesth Analg 2012;114:584", "url": "https://doi.org/10.1213/ANE.0b013e318241f7c0"},
+      "tags": ["anaesthesia", "waveforms"]
+    },
+    {
+      "id": "hdhi-admissions",
+      "name": "HDHI Hospital Admissions",
+      "description": "14,845 admissions of 12,238 patients to the cardiac unit of Hero DMC Heart Institute, Ludhiana, India (2017–2019) with labs, comorbidities and outcomes.",
+      "provider": "Hero DMC Heart Institute",
+      "region": "India",
+      "access": "registration",
+      "access_note": "Free Kaggle account.",
+      "url": "https://www.kaggle.com/datasets/ashishsahani/hospital-admissions-data",
+      "paper": null,
+      "tags": ["cardiology", "admissions", "South Asia"]
     }
   ]
 }

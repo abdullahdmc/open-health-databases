@@ -278,6 +278,126 @@
       "url": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
       "paper": null,
       "tags": ["activity recognition", "smartphone"]
+    },
+    {
+      "id": "mimic-iii-ext-ppg",
+      "name": "MIMIC-III-Ext-PPG",
+      "description": "4.9 million 30-second PPG segments from MIMIC-III ICU patients with rhythm labels, for PPG-based arrhythmia research.",
+      "provider": "PhysioNet",
+      "region": "USA",
+      "access": "credentialed",
+      "access_note": "PhysioNet credentialing + CITI training + DUA.",
+      "url": "https://physionet.org/content/mimic-iii-ext-ppg/",
+      "paper": null,
+      "tags": ["PPG", "ICU", "arrhythmia"]
+    },
+    {
+      "id": "echonext",
+      "name": "EchoNext",
+      "description": "100,000 12-lead ECGs from Columbia University Irving Medical Center paired with echocardiography-derived structural heart disease labels.",
+      "provider": "Columbia University / NewYork-Presbyterian",
+      "region": "USA",
+      "access": "registration",
+      "access_note": "PhysioNet account + signed data use agreement (restricted access).",
+      "url": "https://physionet.org/content/echonext/",
+      "paper": {"label": "Poterucha TJ et al. Nature 2025", "url": "https://doi.org/10.1038/s41586-025-09227-0"},
+      "tags": ["ECG", "structural heart disease"]
+    },
+    {
+      "id": "b2ai-voice",
+      "name": "Bridge2AI-Voice",
+      "description": "Voice and speech recordings with clinical data from participants with voice, neurological, respiratory and mood disorders (NIH Bridge2AI).",
+      "provider": "Bridge2AI-Voice Consortium",
+      "region": "USA / Canada",
+      "access": "credentialed",
+      "access_note": "PhysioNet credentialing + DUA (derived features may be open).",
+      "url": "https://physionet.org/content/b2ai-voice/",
+      "paper": null,
+      "tags": ["voice", "audio", "biomarkers"]
+    },
+    {
+      "id": "covid-19-sounds",
+      "name": "COVID-19 Sounds",
+      "description": "53,449 breathing, cough and voice recordings from 36,116 participants with COVID-19 test status and symptoms.",
+      "provider": "University of Cambridge",
+      "region": "International",
+      "access": "application",
+      "access_note": "Free; sign a data transfer agreement with Cambridge.",
+      "url": "https://www.covid-19-sounds.org/en/blog/neurips_dataset.html",
+      "paper": {"label": "Xia T et al. NeurIPS 2021 Datasets & Benchmarks", "url": "https://openreview.net/forum?id=9KArJb4r5ZQ"},
+      "tags": ["audio", "COVID-19"]
+    },
+    {
+      "id": "pads-parkinsons",
+      "name": "PADS (Parkinson's Disease Smartwatch)",
+      "description": "Smartwatch accelerometer and gyroscope recordings from 469 participants (Parkinson's, differential diagnoses, healthy) during structured assessments.",
+      "provider": "University of Münster",
+      "region": "Germany",
+      "access": "open",
+      "access_note": "Direct download from PhysioNet.",
+      "url": "https://physionet.org/content/parkinsons-disease-smartwatch/",
+      "paper": null,
+      "tags": ["wearables", "Parkinson's"]
+    },
+    {
+      "id": "kaggle-parkinsons",
+      "name": "Parkinson's Kaggle Challenges (AMP-PD & Freezing of Gait)",
+      "description": "AMP-PD: longitudinal CSF protein/peptide data for progression prediction; FoG: lower-back accelerometry from lab, home and daily-living settings for freezing-of-gait detection.",
+      "provider": "Accelerating Medicines Partnership / Michael J. Fox Foundation",
+      "region": "International",
+      "access": "registration",
+      "access_note": "Free Kaggle account and acceptance of competition rules.",
+      "url": "https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction",
+      "paper": null,
+      "tags": ["Parkinson's", "wearables", "proteomics"]
+    },
+    {
+      "id": "google-rppg",
+      "name": "Google Heart Rate Measurement (rPPG) Study Dataset",
+      "description": "Facial videos with skin-tone measurements and reference heart rate for evaluating camera-based (remote PPG) heart-rate measurement across skin tones.",
+      "provider": "Google Health",
+      "region": "USA",
+      "access": "open",
+      "access_note": "Details and download instructions on GitHub.",
+      "url": "https://github.com/Google-Health/consumer-health-research/tree/main/rppg",
+      "paper": null,
+      "tags": ["rPPG", "video", "skin tone"]
+    },
+    {
+      "id": "propofol-anesthesia",
+      "name": "Propofol Anesthesia Dynamics",
+      "description": "ECG and autonomic recordings from nine volunteers during propofol-induced loss and recovery of consciousness.",
+      "provider": "MIT / MGH via PhysioNet",
+      "region": "USA",
+      "access": "open",
+      "access_note": "Direct download from PhysioNet.",
+      "url": "https://physionet.org/content/propofol-anesthesia-dynamics/",
+      "paper": null,
+      "tags": ["anaesthesia", "ECG", "autonomic"]
+    },
+    {
+      "id": "dcsm-sleep",
+      "name": "DCSM Sleep Staging Dataset",
+      "description": "255 anonymised overnight polysomnography recordings from the Danish Center for Sleep Medicine with expert sleep stages.",
+      "provider": "University of Copenhagen",
+      "region": "Denmark",
+      "access": "open",
+      "access_note": "Direct download from ERDA.",
+      "url": "https://erda.ku.dk/public/archives/db553715ecbe1f3ac66c1dc569826eef/published-archive.html",
+      "paper": null,
+      "tags": ["sleep", "polysomnography"]
+    },
+    {
+      "id": "dreem-open",
+      "name": "Dreem Open Datasets (DOD-H & DOD-O)",
+      "description": "Polysomnography from 25 healthy adults and 55 obstructive sleep apnoea patients, each scored by five sleep technologists.",
+      "provider": "Dreem",
+      "region": "France",
+      "access": "open",
+      "access_note": "Direct download via GitHub instructions.",
+      "url": "https://github.com/Dreem-Organization/dreem-learning-open",
+      "paper": {"label": "Guillot A et al. IEEE Trans Neural Syst Rehabil Eng 2020;28:1955", "url": "https://doi.org/10.1109/TNSRE.2020.3011181"},
+      "tags": ["sleep", "polysomnography", "sleep apnoea"]
     }
   ]
 }
