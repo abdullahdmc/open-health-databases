@@ -1,6 +1,6 @@
 # Database list
 
-_Auto-generated from `data/*.json` by `scripts/build.mjs` — do not edit by hand. 400 databases, last built 2026-11-10._
+_Auto-generated from `data/*.json` by `scripts/build.mjs` — do not edit by hand. 400 databases, last built 2026-11-13._
 
 
 ## ICU, Perioperative & Emergency Care
