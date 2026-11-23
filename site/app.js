@@ -109,8 +109,7 @@
     history.replaceState(null, "", location.pathname + location.search);
   });
 
-  // Acknowledgement text: fill today's date and copy to clipboard.
-  document.querySelector(".cite-date").textContent = new Date().toISOString().slice(0, 10);
+  // Acknowledgement text: copy to clipboard (the reader fills in their visit date).
   const copyBtn = document.getElementById("copy-cite");
   copyBtn.addEventListener("click", async () => {
     const text = document.getElementById("cite-text").textContent.replace(/\s+/g, " ").trim();
