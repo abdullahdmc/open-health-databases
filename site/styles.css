@@ -21,8 +21,10 @@
   color-scheme: light;
 }
 
+/* Dark theme: follows the system unless the reader picked a theme with the
+   toggle (stored as data-theme on <html>). */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #111617;
     --surface: #182022;
     --ink: #e7ecea;
@@ -38,6 +40,28 @@
     color-scheme: dark;
   }
 }
+:root[data-theme="dark"] {
+  --bg: #111617;
+  --surface: #182022;
+  --ink: #e7ecea;
+  --muted: #9aa6a5;
+  --line: #2a3537;
+  --brand: #0c3f43;
+  --chip: #202a2c;
+  --open: #7fd6a6;       --open-bg: #183527;
+  --registration: #8fbcf2; --registration-bg: #182a40;
+  --application: #f0c06e;  --application-bg: #3a2c12;
+  --credentialed: #c6a6ef; --credentialed-bg: #2c2140;
+  --shadow: none;
+  color-scheme: dark;
+}
+
+/* Theme toggle */
+.theme-toggle { padding: 10px 12px; color: var(--ink); }
+.theme-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.theme-toggle .moon { display: none; }
+.is-dark .theme-toggle .sun { display: none; }
+.is-dark .theme-toggle .moon { display: block; }
 
 * { box-sizing: border-box; }
 html { scroll-padding-top: 120px; }

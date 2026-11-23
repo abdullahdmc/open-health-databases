@@ -123,6 +123,27 @@
     setTimeout(() => { copyBtn.textContent = "Copy acknowledgement"; }, 2500);
   });
 
+  // Light/dark toggle. The choice is remembered; with no choice the page
+  // follows the system setting.
+  const themeBtn = document.getElementById("theme-toggle");
+  const root = document.documentElement;
+  const syncThemeBtn = () => {
+    const label = root.classList.contains("is-dark") ? "Switch to light mode" : "Switch to dark mode";
+    themeBtn.setAttribute("aria-label", label);
+    themeBtn.title = label;
+  };
+  themeBtn.addEventListener("click", () => {
+    const next = root.classList.contains("is-dark") ? "light" : "dark";
+    root.dataset.theme = next;
+    root.classList.toggle("is-dark", next === "dark");
+    try { localStorage.setItem("theme", next); } catch {}
+    syncThemeBtn();
+  });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+    if (!root.dataset.theme) { root.classList.toggle("is-dark", e.matches); syncThemeBtn(); }
+  });
+  syncThemeBtn();
+
   readUrl();
   apply();
 })();
