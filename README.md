@@ -1,6 +1,8 @@
 # Open Health Databases
 
-A curated, searchable catalogue of **freely available health and clinical databases**, such as MIMIC-IV, eICU, NHANES, TCGA, PhysioNet and many more. Each entry gives:
+🌐 **Live site: [healthdata.abdullahdmc.com](https://healthdata.abdullahdmc.com)**
+
+A curated, searchable catalogue of **400 freely available health and clinical databases** in 17 categories, such as MIMIC-IV, eICU, NHANES, TCGA, PhysioNet and many more. Each entry gives:
 
 - a short introductory description
 - a link to the original descriptor article, where one exists
@@ -20,7 +22,7 @@ Fee-based sources (UK Biobank, CPRD, HCUP NIS, MarketScan, Optum) are deliberate
 
 ## Categories
 
-ICU, perioperative and emergency care · EHR, cohorts, registries and synthetic data · population and public-health surveys · global health and vital statistics · radiology and medical imaging · pathology, dermatology and ophthalmology · neuroimaging and neuroscience · physiological signals and wearables · genomics and multi-omics · clinical trials and IPD · clinical text, literature and terminologies · drugs and pharmacovigilance · infectious diseases and AMR · data repositories and portals.
+ICU, perioperative and emergency care · EHR, cohorts, registries and synthetic data · population and public-health surveys · global health and vital statistics · radiology and medical imaging · pathology, dermatology and ophthalmology · neuroimaging and neuroscience · physiological signals and wearables · genomics and multi-omics · clinical trials and IPD · clinical text, literature and terminologies · drugs and pharmacovigilance · infectious diseases and AMR · data repositories and portals · medical AI, LLM and multimodal benchmarks · endoscopy and surgical video · dataset catalogues and search engines.
 
 ## Repository layout
 
