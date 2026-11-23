@@ -64,7 +64,7 @@ Use `"paper": null` when there is no descriptor article. Run `npm run build` (it
 
 If you found a database through this site, please acknowledge it. GitHub's **"Cite this repository"** button (generated from `CITATION.cff`) gives the citation, or use:
 
-> Khan MAS, et al. Open Health Databases: a catalogue of freely available health datasets. https://open-health-databases.vercel.app
+> Khan MAS, et al. Open Health Databases: a catalogue of freely available health datasets. https://healthdata.abdullahdmc.com
 
 ## Contributors
 

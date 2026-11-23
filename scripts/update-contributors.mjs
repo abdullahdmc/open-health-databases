@@ -56,7 +56,7 @@ const cff = [
     ...(p.given_names ? [`    given-names: ${q(p.given_names)}`] : []),
     ...(p.github ? [`    alias: ${q(p.github)}`] : []),
   ]),
-  'url: "https://open-health-databases.vercel.app"',
+  'url: "https://healthdata.abdullahdmc.com"',
   'repository-code: "https://github.com/abdullahdmc/open-health-databases"',
   'license: "CC-BY-4.0"',
   "keywords:",
